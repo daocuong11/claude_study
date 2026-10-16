@@ -1,0 +1,759 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="The official Anthropic exam guide (v0.2): exam details, domains, task statements, the 6 exam scenarios, sample questions with explanations, and in-scope/out-of-scope topics."><meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex"><meta name="googlebot" content="noindex,nofollow,noarchive,nosnippet,noimageindex"><link rel="icon" type="image/svg+xml" href="favicon.svg"><title>Study Guide | Claude Certified Architect</title><style>@import"https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap";*,:before,:after{--tw-border-spacing-x: 0;--tw-border-spacing-y: 0;--tw-translate-x: 0;--tw-translate-y: 0;--tw-rotate: 0;--tw-skew-x: 0;--tw-skew-y: 0;--tw-scale-x: 1;--tw-scale-y: 1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness: proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width: 0px;--tw-ring-offset-color: #fff;--tw-ring-color: rgb(59 130 246 / .5);--tw-ring-offset-shadow: 0 0 #0000;--tw-ring-shadow: 0 0 #0000;--tw-shadow: 0 0 #0000;--tw-shadow-colored: 0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x: 0;--tw-border-spacing-y: 0;--tw-translate-x: 0;--tw-translate-y: 0;--tw-rotate: 0;--tw-skew-x: 0;--tw-skew-y: 0;--tw-scale-x: 1;--tw-scale-y: 1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness: proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width: 0px;--tw-ring-offset-color: #fff;--tw-ring-color: rgb(59 130 246 / .5);--tw-ring-offset-shadow: 0 0 #0000;--tw-ring-shadow: 0 0 #0000;--tw-shadow: 0 0 #0000;--tw-shadow-colored: 0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }*,:before,:after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}:before,:after{--tw-content: ""}html,:host{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,samp,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dl,dd,h1,h2,h3,h4,h5,h6,hr,figure,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}ol,ul,menu{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}button,[role=button]{cursor:pointer}:disabled{cursor:default}img,svg,video,canvas,audio,iframe,embed,object{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}body{--tw-bg-opacity: 1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1));font-family:Poppins,system-ui,sans-serif;--tw-text-opacity: 1;color:rgb(11 16 53 / var(--tw-text-opacity, 1));-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.container{width:100%}@media(min-width:640px){.container{max-width:640px}}@media(min-width:768px){.container{max-width:768px}}@media(min-width:1024px){.container{max-width:1024px}}@media(min-width:1280px){.container{max-width:1280px}}@media(min-width:1536px){.container{max-width:1536px}}.prose{max-width:none}.prose h2{margin-top:3rem;margin-bottom:1rem;border-top-width:2px;--tw-border-opacity: 1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1));padding-top:2rem;font-size:1.5rem;line-height:2rem;font-weight:700;--tw-text-opacity: 1;color:rgb(11 16 53 / var(--tw-text-opacity, 1))}.prose h2:first-of-type{margin-top:2rem;border-top-width:0px;padding-top:0}.prose h3{margin-top:1.5rem;margin-bottom:.75rem;font-size:1.25rem;line-height:1.75rem;font-weight:600;--tw-text-opacity: 1;color:rgb(11 16 53 / var(--tw-text-opacity, 1))}.prose h4{margin-top:1.25rem;margin-bottom:.5rem;font-size:1.125rem;line-height:1.75rem;font-weight:600;--tw-text-opacity: 1;color:rgb(11 16 53 / var(--tw-text-opacity, 1))}.heading-anchor{margin-left:.5rem;display:inline-block;cursor:pointer;vertical-align:middle;font-size:1rem;line-height:1.5rem;font-weight:400;--tw-text-opacity: 1;color:rgb(34 84 254 / var(--tw-text-opacity, 1));text-decoration-line:none;opacity:0;transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.prose h2:hover .heading-anchor,.prose h3:hover .heading-anchor,.prose h4:hover .heading-anchor,.heading-anchor:focus-visible{opacity:1}.prose p{margin-top:1rem;margin-bottom:1rem;line-height:1.625}.prose ul{margin-top:1rem;margin-bottom:1rem;list-style-type:disc}.prose ul>:not([hidden])~:not([hidden]){--tw-space-y-reverse: 0;margin-top:calc(.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.5rem * var(--tw-space-y-reverse))}.prose ul{padding-left:1.5rem}.prose ol{margin-top:1rem;margin-bottom:1rem;list-style-type:decimal}.prose ol>:not([hidden])~:not([hidden]){--tw-space-y-reverse: 0;margin-top:calc(.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.5rem * var(--tw-space-y-reverse))}.prose ol{padding-left:1.5rem}.prose li{line-height:1.625}.prose a{--tw-text-opacity: 1;color:rgb(34 84 254 / var(--tw-text-opacity, 1));text-decoration-line:underline}.prose a:hover{--tw-text-opacity: 1;color:rgb(115 222 255 / var(--tw-text-opacity, 1))}.prose code{border-radius:.25rem;--tw-bg-opacity: 1;background-color:rgb(244 246 250 / var(--tw-bg-opacity, 1));padding:.125rem .375rem;font-size:.9em;--tw-text-opacity: 1;color:rgb(11 16 53 / var(--tw-text-opacity, 1))}.prose pre{margin-top:1rem;margin-bottom:1rem;overflow-x:auto;border-radius:.5rem;--tw-bg-opacity: 1;background-color:rgb(11 16 53 / var(--tw-bg-opacity, 1));padding:1rem;--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.prose pre code{background-color:transparent;padding:0;color:inherit}.prose blockquote{margin-top:1rem;margin-bottom:1rem;border-top-right-radius:.5rem;border-bottom-right-radius:.5rem;border-left-width:4px;--tw-border-opacity: 1;border-color:rgb(115 222 255 / var(--tw-border-opacity, 1));background-color:#8adcff1a;padding:.5rem 1rem}.prose table{margin-top:1.5rem;margin-bottom:1.5rem;width:100%;border-collapse:collapse;border-width:1px;--tw-border-opacity: 1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1))}.prose th{border-width:1px;--tw-border-opacity: 1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1));--tw-bg-opacity: 1;background-color:rgb(11 16 53 / var(--tw-bg-opacity, 1));padding:.5rem 1rem;text-align:left;font-weight:600;--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.prose td{border-width:1px;--tw-border-opacity: 1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1));padding:.5rem 1rem}.prose tr:nth-child(2n){--tw-bg-opacity: 1;background-color:rgb(244 246 250 / var(--tw-bg-opacity, 1))}.btn-primary{border-radius:.5rem;--tw-bg-opacity: 1;background-color:rgb(249 165 0 / var(--tw-bg-opacity, 1));padding:.75rem 1.5rem;font-weight:600;--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1));transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.2s}.btn-primary:hover{--tw-bg-opacity: .9}.btn-secondary{border-radius:.5rem;--tw-bg-opacity: 1;background-color:rgb(34 84 254 / var(--tw-bg-opacity, 1));padding:.5rem 1.25rem;font-weight:500;--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1));transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.2s}.btn-secondary:hover{--tw-bg-opacity: .9}.toc-link{margin-left:-2px;border-left-width:2px;border-color:transparent;--tw-text-opacity: 1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.toc-link:hover{--tw-text-opacity: 1;color:rgb(34 84 254 / var(--tw-text-opacity, 1))}.toc-link.active{border-left-width:2px;--tw-border-opacity: 1;border-color:rgb(34 84 254 / var(--tw-border-opacity, 1));font-weight:500;--tw-text-opacity: 1;color:rgb(34 84 254 / var(--tw-text-opacity, 1))}.visible{visibility:visible}.collapse{visibility:collapse}.static{position:static}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0}.bottom-0{bottom:0}.left-0{left:0}.right-0{right:0}.top-0{top:0}.top-24{top:6rem}.isolate{isolation:isolate}.z-10{z-index:10}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-1{margin-bottom:.25rem}.mb-10{margin-bottom:2.5rem}.mb-2{margin-bottom:.5rem}.mb-3{margin-bottom:.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-3{margin-left:.75rem}.mt-1{margin-top:.25rem}.mt-12{margin-top:3rem}.mt-14{margin-top:3.5rem}.mt-6{margin-top:1.5rem}.mt-auto{margin-top:auto}.block{display:block}.inline-block{display:inline-block}.inline{display:inline}.flex{display:flex}.table{display:table}.grid{display:grid}.contents{display:contents}.hidden{display:none}.h-11{height:2.75rem}.h-5{height:1.25rem}.h-6{height:1.5rem}.h-64{height:16rem}.h-8{height:2rem}.h-96{height:24rem}.max-h-\[calc\(100vh-8rem\)\]{max-height:calc(100vh - 8rem)}.min-h-screen{min-height:100vh}.w-11{width:2.75rem}.w-5{width:1.25rem}.w-64{width:16rem}.w-96{width:24rem}.min-w-0{min-width:0px}.max-w-2xl{max-width:42rem}.max-w-3xl{max-width:48rem}.max-w-6xl{max-width:72rem}.flex-1{flex:1 1 0%}.flex-shrink{flex-shrink:1}.flex-shrink-0,.shrink-0{flex-shrink:0}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.items-baseline{align-items:baseline}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-2{gap:.5rem}.gap-3{gap:.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}.space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse: 0;margin-top:calc(.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.25rem * var(--tw-space-y-reverse))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse: 0;margin-top:calc(.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.75rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.overflow-y-auto{overflow-y:auto}.truncate{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rounded{border-radius:.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-xl{border-radius:.75rem}.border{border-width:1px}.border-2{border-width:2px}.border-l{border-left-width:1px}.border-t{border-top-width:1px}.border-gray-200{--tw-border-opacity: 1;border-color:rgb(229 231 235 / var(--tw-border-opacity, 1))}.border-propel-blue\/30{border-color:#2254fe4d}.border-propel-cyan\/30{border-color:#73deff4d}.border-propel-orange{--tw-border-opacity: 1;border-color:rgb(249 165 0 / var(--tw-border-opacity, 1))}.border-propel-orange\/30{border-color:#f9a5004d}.border-white\/10{border-color:#ffffff1a}.bg-propel-blue{--tw-bg-opacity: 1;background-color:rgb(34 84 254 / var(--tw-bg-opacity, 1))}.bg-propel-blue\/10{background-color:#2254fe1a}.bg-propel-cyan{--tw-bg-opacity: 1;background-color:rgb(115 222 255 / var(--tw-bg-opacity, 1))}.bg-propel-cyan\/10{background-color:#73deff1a}.bg-propel-gray{--tw-bg-opacity: 1;background-color:rgb(244 246 250 / var(--tw-bg-opacity, 1))}.bg-propel-navy{--tw-bg-opacity: 1;background-color:rgb(11 16 53 / var(--tw-bg-opacity, 1))}.bg-propel-orange\/10{background-color:#f9a5001a}.bg-propel-orange\/5{background-color:#f9a5000d}.bg-white{--tw-bg-opacity: 1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-white\/5{background-color:#ffffff0d}.bg-gradient-to-br{background-image:linear-gradient(to bottom right,var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.from-propel-blue{--tw-gradient-from: #2254FE var(--tw-gradient-from-position);--tw-gradient-to: rgb(34 84 254 / 0) var(--tw-gradient-to-position);--tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to)}.from-propel-cyan-light\/20{--tw-gradient-from: rgb(138 220 255 / .2) var(--tw-gradient-from-position);--tw-gradient-to: rgb(138 220 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to)}.to-propel-cyan{--tw-gradient-to: #73DEFF var(--tw-gradient-to-position)}.to-propel-cyan\/10{--tw-gradient-to: rgb(115 222 255 / .1) var(--tw-gradient-to-position)}.p-4{padding:1rem}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.\!px-4{padding-left:1rem!important;padding-right:1rem!important}.\!py-2{padding-top:.5rem!important;padding-bottom:.5rem!important}.px-2{padding-left:.5rem;padding-right:.5rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.py-0\.5{padding-top:.125rem;padding-bottom:.125rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-14{padding-top:3.5rem;padding-bottom:3.5rem}.py-16{padding-top:4rem;padding-bottom:4rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-8{padding-top:2rem;padding-bottom:2rem}.pl-4{padding-left:1rem}.pl-6{padding-left:1.5rem}.pt-6{padding-top:1.5rem}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-\[10px\]{font-size:10px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.lowercase{text-transform:lowercase}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.tracking-wide{letter-spacing:.025em}.tracking-widest{letter-spacing:.1em}.text-gray-500{--tw-text-opacity: 1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity: 1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-propel-blue{--tw-text-opacity: 1;color:rgb(34 84 254 / var(--tw-text-opacity, 1))}.text-propel-cyan{--tw-text-opacity: 1;color:rgb(115 222 255 / var(--tw-text-opacity, 1))}.text-propel-navy{--tw-text-opacity: 1;color:rgb(11 16 53 / var(--tw-text-opacity, 1))}.text-propel-orange{--tw-text-opacity: 1;color:rgb(249 165 0 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-white\/40{color:#fff6}.text-white\/60{color:#fff9}.text-white\/80{color:#fffc}.underline{text-decoration-line:underline}.opacity-10{opacity:.1}.shadow-lg{--tw-shadow: 0 10px 15px -3px rgb(0 0 0 / .1), 0 4px 6px -4px rgb(0 0 0 / .1);--tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.shadow-md{--tw-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);--tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.blur-3xl{--tw-blur: blur(64px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-colors{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-shadow{transition-property:box-shadow;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.duration-300{transition-duration:.3s}:root{--propel-navy: #0b1035;--propel-blue: #2254FE;--propel-cyan: #73DEFF;--propel-cyan-light: #8adcff;--propel-orange: #f9a500;--propel-gray: #f4f6fa}.hover\:border-propel-cyan:hover{--tw-border-opacity: 1;border-color:rgb(115 222 255 / var(--tw-border-opacity, 1))}.hover\:text-propel-cyan:hover{--tw-text-opacity: 1;color:rgb(115 222 255 / var(--tw-text-opacity, 1))}.hover\:opacity-90:hover{opacity:.9}.hover\:shadow-lg:hover{--tw-shadow: 0 10px 15px -3px rgb(0 0 0 / .1), 0 4px 6px -4px rgb(0 0 0 / .1);--tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.hover\:shadow-md:hover{--tw-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);--tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.group:hover .group-hover\:translate-x-1{--tw-translate-x: .25rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:text-propel-blue{--tw-text-opacity: 1;color:rgb(34 84 254 / var(--tw-text-opacity, 1))}@media(min-width:768px){.md\:flex{display:flex}.md\:h-10{height:2.5rem}.md\:flex-row{flex-direction:row}.md\:px-8{padding-left:2rem;padding-right:2rem}.md\:py-20{padding-top:5rem;padding-bottom:5rem}.md\:text-4xl{font-size:2.25rem;line-height:2.5rem}.md\:text-5xl{font-size:3rem;line-height:1}.md\:text-xl{font-size:1.25rem;line-height:1.75rem}}@media(min-width:1024px){.lg\:block{display:block}}
+</style></head> <body class="min-h-screen flex flex-col"> <header class="bg-propel-navy text-white sticky top-0 z-50 shadow-lg"> <div class="max-w-6xl mx-auto px-4 md:px-8 py-4 flex items-center justify-between"> <a href="index.html" class="flex items-center gap-3 hover:opacity-90 transition-opacity"> <img src="propel-logo.svg" alt="Propel" class="h-8 md:h-10"> <span class="text-lg md:text-xl font-semibold text-propel-cyan">Claude Certified Architect</span> </a> <nav class="hidden md:flex items-center gap-6"> <a href="guide.html" class="text-white/80 hover:text-propel-cyan transition-colors font-medium">Study Guide</a> </nav> </div> </header> <main class="flex-1 bg-propel-gray">  <div class="max-w-6xl mx-auto px-4 md:px-8 py-12"> <nav class="mb-8"> <a href="index.html" class="text-propel-blue hover:text-propel-cyan">&larr; Back to home</a> </nav> <header class="mb-8"> <span class="text-sm font-medium text-gray-500">Study Guide</span> <h1 class="text-3xl md:text-4xl font-bold text-propel-navy mt-1 mb-4">Claude Certified Architect — Foundations Certification</h1> <p class="text-lg text-gray-600">The official Anthropic exam guide (v0.2): exam details, domains, task statements, the 6 exam scenarios, sample questions with explanations, and in-scope/out-of-scope topics.</p> </header> <div class="bg-gradient-to-r from-propel-cyan-light/20 to-propel-cyan/10 border border-propel-cyan/30 rounded-xl p-6 mb-8"> <h2 class="text-lg font-semibold text-propel-navy mb-4 flex items-center gap-2"> <svg class="w-5 h-5 text-propel-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path> </svg>
+Exam Domains
+</h2> <ul class="space-y-3"> <li class="flex items-center justify-between gap-3"> <span class="text-propel-navy">Domain 1: Agentic Architecture &amp; Orchestration</span> <span class="text-propel-blue font-semibold text-sm shrink-0">27%</span> </li><li class="flex items-center justify-between gap-3"> <span class="text-propel-navy">Domain 2: Tool Design &amp; MCP Integration</span> <span class="text-propel-blue font-semibold text-sm shrink-0">18%</span> </li><li class="flex items-center justify-between gap-3"> <span class="text-propel-navy">Domain 3: Claude Code Configuration &amp; Workflows</span> <span class="text-propel-blue font-semibold text-sm shrink-0">20%</span> </li><li class="flex items-center justify-between gap-3"> <span class="text-propel-navy">Domain 4: Prompt Engineering &amp; Structured Output</span> <span class="text-propel-blue font-semibold text-sm shrink-0">20%</span> </li><li class="flex items-center justify-between gap-3"> <span class="text-propel-navy">Domain 5: Context Management &amp; Reliability</span> <span class="text-propel-blue font-semibold text-sm shrink-0">15%</span> </li> </ul> </div> <div class="flex gap-8"> <nav class="hidden lg:block w-64 shrink-0"> <div class="sticky top-24 max-h-[calc(100vh-8rem)] overflow-y-auto"> <div> <h4 class="text-sm font-semibold text-propel-navy mb-3">On this page</h4> <ul class="space-y-1 border-l border-gray-200"> <li> <a href="#introduction" data-heading="introduction" class="toc-link block py-1 text-sm transition-colors pl-4"> Introduction </a> </li><li> <a href="#exam-details-at-a-glance" data-heading="exam-details-at-a-glance" class="toc-link block py-1 text-sm transition-colors pl-4"> Exam Details at a Glance </a> </li><li> <a href="#target-candidate-description" data-heading="target-candidate-description" class="toc-link block py-1 text-sm transition-colors pl-4"> Target Candidate Description </a> </li><li> <a href="#exam-content" data-heading="exam-content" class="toc-link block py-1 text-sm transition-colors pl-4"> Exam Content </a> </li><li> <a href="#response-types" data-heading="response-types" class="toc-link block py-1 text-sm transition-colors pl-6"> Response Types </a> </li><li> <a href="#exam-results" data-heading="exam-results" class="toc-link block py-1 text-sm transition-colors pl-6"> Exam Results </a> </li><li> <a href="#content-outline" data-heading="content-outline" class="toc-link block py-1 text-sm transition-colors pl-6"> Content Outline </a> </li><li> <a href="#exam-scenarios" data-heading="exam-scenarios" class="toc-link block py-1 text-sm transition-colors pl-4"> Exam Scenarios </a> </li><li> <a href="#scenario-1-customer-support-resolution-agent" data-heading="scenario-1-customer-support-resolution-agent" class="toc-link block py-1 text-sm transition-colors pl-6"> Scenario 1: Customer Support Resolution Agent </a> </li><li> <a href="#scenario-2-code-generation-with-claude-code" data-heading="scenario-2-code-generation-with-claude-code" class="toc-link block py-1 text-sm transition-colors pl-6"> Scenario 2: Code Generation with Claude Code </a> </li><li> <a href="#scenario-3-multi-agent-research-system" data-heading="scenario-3-multi-agent-research-system" class="toc-link block py-1 text-sm transition-colors pl-6"> Scenario 3: Multi-Agent Research System </a> </li><li> <a href="#scenario-4-developer-productivity-with-claude" data-heading="scenario-4-developer-productivity-with-claude" class="toc-link block py-1 text-sm transition-colors pl-6"> Scenario 4: Developer Productivity with Claude </a> </li><li> <a href="#scenario-5-claude-code-for-continuous-integration" data-heading="scenario-5-claude-code-for-continuous-integration" class="toc-link block py-1 text-sm transition-colors pl-6"> Scenario 5: Claude Code for Continuous Integration </a> </li><li> <a href="#scenario-6-structured-data-extraction" data-heading="scenario-6-structured-data-extraction" class="toc-link block py-1 text-sm transition-colors pl-6"> Scenario 6: Structured Data Extraction </a> </li><li> <a href="#domain-1-agentic-architecture--orchestration" data-heading="domain-1-agentic-architecture--orchestration" class="toc-link block py-1 text-sm transition-colors pl-4"> Domain 1: Agentic Architecture &amp; Orchestration </a> </li><li> <a href="#task-statement-11-design-and-implement-agentic-loops-for-autonomous-task-execution" data-heading="task-statement-11-design-and-implement-agentic-loops-for-autonomous-task-execution" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 1.1: Design and implement agentic loops for autonomous task execution </a> </li><li> <a href="#task-statement-12-orchestrate-multi-agent-systems-with-coordinator-subagent-patterns" data-heading="task-statement-12-orchestrate-multi-agent-systems-with-coordinator-subagent-patterns" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 1.2: Orchestrate multi-agent systems with coordinator-subagent patterns </a> </li><li> <a href="#task-statement-13-configure-subagent-invocation-context-passing-and-spawning" data-heading="task-statement-13-configure-subagent-invocation-context-passing-and-spawning" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 1.3: Configure subagent invocation, context passing, and spawning </a> </li><li> <a href="#task-statement-14-implement-multi-step-workflows-with-enforcement-and-handoff-patterns" data-heading="task-statement-14-implement-multi-step-workflows-with-enforcement-and-handoff-patterns" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 1.4: Implement multi-step workflows with enforcement and handoff patterns </a> </li><li> <a href="#task-statement-15-apply-agent-sdk-hooks-for-tool-call-interception-and-data-normalization" data-heading="task-statement-15-apply-agent-sdk-hooks-for-tool-call-interception-and-data-normalization" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 1.5: Apply Agent SDK hooks for tool call interception and data normalization </a> </li><li> <a href="#task-statement-16-design-task-decomposition-strategies-for-complex-workflows" data-heading="task-statement-16-design-task-decomposition-strategies-for-complex-workflows" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 1.6: Design task decomposition strategies for complex workflows </a> </li><li> <a href="#task-statement-17-manage-session-state-resumption-and-forking" data-heading="task-statement-17-manage-session-state-resumption-and-forking" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 1.7: Manage session state, resumption, and forking </a> </li><li> <a href="#domain-2-tool-design--mcp-integration" data-heading="domain-2-tool-design--mcp-integration" class="toc-link block py-1 text-sm transition-colors pl-4"> Domain 2: Tool Design &amp; MCP Integration </a> </li><li> <a href="#task-statement-21-design-effective-tool-interfaces-with-clear-descriptions-and-boundaries" data-heading="task-statement-21-design-effective-tool-interfaces-with-clear-descriptions-and-boundaries" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 2.1: Design effective tool interfaces with clear descriptions and boundaries </a> </li><li> <a href="#task-statement-22-implement-structured-error-responses-for-mcp-tools" data-heading="task-statement-22-implement-structured-error-responses-for-mcp-tools" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 2.2: Implement structured error responses for MCP tools </a> </li><li> <a href="#task-statement-23-distribute-tools-appropriately-across-agents-and-configure-tool-choice" data-heading="task-statement-23-distribute-tools-appropriately-across-agents-and-configure-tool-choice" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 2.3: Distribute tools appropriately across agents and configure tool choice </a> </li><li> <a href="#task-statement-24-integrate-mcp-servers-into-claude-code-and-agent-workflows" data-heading="task-statement-24-integrate-mcp-servers-into-claude-code-and-agent-workflows" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 2.4: Integrate MCP servers into Claude Code and agent workflows </a> </li><li> <a href="#task-statement-25-select-and-apply-built-in-tools-read-write-edit-bash-grep-glob-effectively" data-heading="task-statement-25-select-and-apply-built-in-tools-read-write-edit-bash-grep-glob-effectively" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 2.5: Select and apply built-in tools (Read, Write, Edit, Bash, Grep, Glob) effectively </a> </li><li> <a href="#domain-3-claude-code-configuration--workflows" data-heading="domain-3-claude-code-configuration--workflows" class="toc-link block py-1 text-sm transition-colors pl-4"> Domain 3: Claude Code Configuration &amp; Workflows </a> </li><li> <a href="#task-statement-31-configure-claudemd-files-with-appropriate-hierarchy-scoping-and-modular-organization" data-heading="task-statement-31-configure-claudemd-files-with-appropriate-hierarchy-scoping-and-modular-organization" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 3.1: Configure CLAUDE.md files with appropriate hierarchy, scoping, and modular organization </a> </li><li> <a href="#task-statement-32-create-and-configure-custom-slash-commands-and-skills" data-heading="task-statement-32-create-and-configure-custom-slash-commands-and-skills" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 3.2: Create and configure custom slash commands and skills </a> </li><li> <a href="#task-statement-33-apply-path-specific-rules-for-conditional-convention-loading" data-heading="task-statement-33-apply-path-specific-rules-for-conditional-convention-loading" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 3.3: Apply path-specific rules for conditional convention loading </a> </li><li> <a href="#task-statement-34-determine-when-to-use-plan-mode-vs-direct-execution" data-heading="task-statement-34-determine-when-to-use-plan-mode-vs-direct-execution" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 3.4: Determine when to use plan mode vs direct execution </a> </li><li> <a href="#task-statement-35-apply-iterative-refinement-techniques-for-progressive-improvement" data-heading="task-statement-35-apply-iterative-refinement-techniques-for-progressive-improvement" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 3.5: Apply iterative refinement techniques for progressive improvement </a> </li><li> <a href="#task-statement-36-integrate-claude-code-into-cicd-pipelines" data-heading="task-statement-36-integrate-claude-code-into-cicd-pipelines" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 3.6: Integrate Claude Code into CI/CD pipelines </a> </li><li> <a href="#domain-4-prompt-engineering--structured-output" data-heading="domain-4-prompt-engineering--structured-output" class="toc-link block py-1 text-sm transition-colors pl-4"> Domain 4: Prompt Engineering &amp; Structured Output </a> </li><li> <a href="#task-statement-41-design-prompts-with-explicit-criteria-to-improve-precision-and-reduce-false-positives" data-heading="task-statement-41-design-prompts-with-explicit-criteria-to-improve-precision-and-reduce-false-positives" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 4.1: Design prompts with explicit criteria to improve precision and reduce false positives </a> </li><li> <a href="#task-statement-42-apply-few-shot-prompting-to-improve-output-consistency-and-quality" data-heading="task-statement-42-apply-few-shot-prompting-to-improve-output-consistency-and-quality" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 4.2: Apply few-shot prompting to improve output consistency and quality </a> </li><li> <a href="#task-statement-43-enforce-structured-output-using-tool-use-and-json-schemas" data-heading="task-statement-43-enforce-structured-output-using-tool-use-and-json-schemas" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 4.3: Enforce structured output using tool use and JSON schemas </a> </li><li> <a href="#task-statement-44-implement-validation-retry-and-feedback-loops-for-extraction-quality" data-heading="task-statement-44-implement-validation-retry-and-feedback-loops-for-extraction-quality" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 4.4: Implement validation, retry, and feedback loops for extraction quality </a> </li><li> <a href="#task-statement-45-design-efficient-batch-processing-strategies" data-heading="task-statement-45-design-efficient-batch-processing-strategies" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 4.5: Design efficient batch processing strategies </a> </li><li> <a href="#task-statement-46-design-multi-instance-and-multi-pass-review-architectures" data-heading="task-statement-46-design-multi-instance-and-multi-pass-review-architectures" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 4.6: Design multi-instance and multi-pass review architectures </a> </li><li> <a href="#domain-5-context-management--reliability" data-heading="domain-5-context-management--reliability" class="toc-link block py-1 text-sm transition-colors pl-4"> Domain 5: Context Management &amp; Reliability </a> </li><li> <a href="#task-statement-51-manage-conversation-context-to-preserve-critical-information-across-long-interactions" data-heading="task-statement-51-manage-conversation-context-to-preserve-critical-information-across-long-interactions" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 5.1: Manage conversation context to preserve critical information across long interactions </a> </li><li> <a href="#task-statement-52-design-effective-escalation-and-ambiguity-resolution-patterns" data-heading="task-statement-52-design-effective-escalation-and-ambiguity-resolution-patterns" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 5.2: Design effective escalation and ambiguity resolution patterns </a> </li><li> <a href="#task-statement-53-implement-error-propagation-strategies-across-multi-agent-systems" data-heading="task-statement-53-implement-error-propagation-strategies-across-multi-agent-systems" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 5.3: Implement error propagation strategies across multi-agent systems </a> </li><li> <a href="#task-statement-54-manage-context-effectively-in-large-codebase-exploration" data-heading="task-statement-54-manage-context-effectively-in-large-codebase-exploration" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 5.4: Manage context effectively in large codebase exploration </a> </li><li> <a href="#task-statement-55-design-human-review-workflows-and-confidence-calibration" data-heading="task-statement-55-design-human-review-workflows-and-confidence-calibration" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 5.5: Design human review workflows and confidence calibration </a> </li><li> <a href="#task-statement-56-preserve-information-provenance-and-handle-uncertainty-in-multi-source-synthesis" data-heading="task-statement-56-preserve-information-provenance-and-handle-uncertainty-in-multi-source-synthesis" class="toc-link block py-1 text-sm transition-colors pl-6"> Task Statement 5.6: Preserve information provenance and handle uncertainty in multi-source synthesis </a> </li><li> <a href="#sample-questions" data-heading="sample-questions" class="toc-link block py-1 text-sm transition-colors pl-4"> Sample Questions </a> </li><li> <a href="#scenario-customer-support-resolution-agent" data-heading="scenario-customer-support-resolution-agent" class="toc-link block py-1 text-sm transition-colors pl-6"> Scenario: Customer Support Resolution Agent </a> </li><li> <a href="#scenario-code-generation-with-claude-code" data-heading="scenario-code-generation-with-claude-code" class="toc-link block py-1 text-sm transition-colors pl-6"> Scenario: Code Generation with Claude Code </a> </li><li> <a href="#scenario-multi-agent-research-system" data-heading="scenario-multi-agent-research-system" class="toc-link block py-1 text-sm transition-colors pl-6"> Scenario: Multi-Agent Research System </a> </li><li> <a href="#scenario-claude-code-for-continuous-integration" data-heading="scenario-claude-code-for-continuous-integration" class="toc-link block py-1 text-sm transition-colors pl-6"> Scenario: Claude Code for Continuous Integration </a> </li><li> <a href="#preparation-exercises" data-heading="preparation-exercises" class="toc-link block py-1 text-sm transition-colors pl-4"> Preparation Exercises </a> </li><li> <a href="#exercise-1-build-a-multi-tool-agent-with-escalation-logic" data-heading="exercise-1-build-a-multi-tool-agent-with-escalation-logic" class="toc-link block py-1 text-sm transition-colors pl-6"> Exercise 1: Build a Multi-Tool Agent with Escalation Logic </a> </li><li> <a href="#exercise-2-configure-claude-code-for-a-team-development-workflow" data-heading="exercise-2-configure-claude-code-for-a-team-development-workflow" class="toc-link block py-1 text-sm transition-colors pl-6"> Exercise 2: Configure Claude Code for a Team Development Workflow </a> </li><li> <a href="#exercise-3-build-a-structured-data-extraction-pipeline" data-heading="exercise-3-build-a-structured-data-extraction-pipeline" class="toc-link block py-1 text-sm transition-colors pl-6"> Exercise 3: Build a Structured Data Extraction Pipeline </a> </li><li> <a href="#exercise-4-design-and-debug-a-multi-agent-research-pipeline" data-heading="exercise-4-design-and-debug-a-multi-agent-research-pipeline" class="toc-link block py-1 text-sm transition-colors pl-6"> Exercise 4: Design and Debug a Multi-Agent Research Pipeline </a> </li><li> <a href="#appendix" data-heading="appendix" class="toc-link block py-1 text-sm transition-colors pl-4"> Appendix </a> </li><li> <a href="#technologies-and-concepts" data-heading="technologies-and-concepts" class="toc-link block py-1 text-sm transition-colors pl-6"> Technologies and Concepts </a> </li><li> <a href="#in-scope-topics" data-heading="in-scope-topics" class="toc-link block py-1 text-sm transition-colors pl-6"> In-Scope Topics </a> </li><li> <a href="#out-of-scope-topics" data-heading="out-of-scope-topics" class="toc-link block py-1 text-sm transition-colors pl-6"> Out-of-Scope Topics </a> </li><li> <a href="#exam-preparation-recommendations" data-heading="exam-preparation-recommendations" class="toc-link block py-1 text-sm transition-colors pl-4"> Exam Preparation Recommendations </a> </li> </ul> </div> </div> </nav> <script type="module">function n(){const t=document.querySelectorAll(".toc-link"),c=document.querySelectorAll("article h2[id], article h3[id]");if(c.length===0||t.length===0)return;const o=new IntersectionObserver(e=>{e.forEach(i=>{i.isIntersecting&&(t.forEach(r=>r.classList.remove("active")),document.querySelector(`.toc-link[data-heading="${i.target.id}"]`)?.classList.add("active"))})},{rootMargin:"-80px 0px -70% 0px"});c.forEach(e=>o.observe(e))}n();document.addEventListener("astro:page-load",n);</script> <div class="min-w-0 flex-1"> <article class="prose mb-10"> <blockquote>
+<p>Source: Claude Certification Program exam guide, version 0.2 (last updated June 30 2026) — transcribed faithfully.</p>
+</blockquote>
+<h2 id="introduction">Introduction</h2>
+<p>The Claude Certified Architect – Foundations certification validates that practitioners can make informed decisions about tradeoffs when implementing real-world solutions with Claude. This exam tests foundational knowledge across Claude Code, the Claude Agent SDK, the Claude API, and Model Context Protocol (MCP) — the core technologies used to build production-grade applications with Claude.</p>
+<p>Questions on this exam are grounded in realistic scenarios drawn from actual customer use cases, including building agentic systems for customer support, designing multi-agent research pipelines, integrating Claude Code into CI/CD workflows, building developer productivity tools, and extracting structured data from unstructured documents. Candidates must demonstrate not only conceptual knowledge but practical judgment about architecture, configuration, and tradeoffs in production deployments.</p>
+<p>This guide describes the exam content, lists the domains and task statements tested, provides sample questions, and recommends preparation strategies. Use it alongside hands-on experience to prepare effectively.</p>
+<h2 id="exam-details-at-a-glance">Exam Details at a Glance</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Field</th><th>Value</th></tr></thead><tbody><tr><td>Credential</td><td>Claude Certified Architect – Foundations</td></tr><tr><td>Number of questions</td><td>60</td></tr><tr><td>Time limit</td><td>120 minutes</td></tr><tr><td>Response format</td><td>Multiple choice; one correct answer and three incorrect options</td></tr><tr><td>Exam structure</td><td>4 scenarios drawn from a bank of 6</td></tr><tr><td>Content domains</td><td>5 (weightings in the Content Outline)</td></tr><tr><td>Delivery</td><td>Online proctored or at a test center</td></tr><tr><td>Exam fee</td><td>$125 USD</td></tr><tr><td>Scoring</td><td>Scaled score of 100–1,000; minimum passing score 720</td></tr><tr><td>Validity period</td><td>12 months from the date the credential is awarded</td></tr><tr><td>Result reporting</td><td>Pass or fail</td></tr></tbody></table>
+<h2 id="target-candidate-description">Target Candidate Description</h2>
+<p>The ideal candidate for this certification is a solution architect who designs and implements production applications with Claude. This candidate has hands-on experience with:</p>
+<ul>
+<li>Building agentic applications using the Claude Agent SDK, including multi-agent orchestration, subagent delegation, tool integration, and lifecycle hooks</li>
+<li>Configuring and customizing Claude Code for team workflows using CLAUDE.md files, Agent Skills, MCP server integrations, and plan mode</li>
+<li>Designing Model Context Protocol (MCP) tool and resource interfaces for backend system integration</li>
+<li>Engineering prompts that produce reliable structured output, leveraging JSON schemas, few-shot examples, and extraction patterns</li>
+<li>Managing context windows effectively across long documents, multi-turn conversations, and multi-agent handoffs</li>
+<li>Integrating Claude into CI/CD pipelines for automated code review, test generation, and pull request feedback</li>
+<li>Making sound escalation and reliability decisions, including error handling, human-in-the-loop workflows, and self-evaluation patterns</li>
+</ul>
+<p>The candidate typically has 6+ months of practical experience building with Claude APIs, Agent SDK, Claude Code, and MCP, understanding both the capabilities and limitations of large language models in production environments.</p>
+<h2 id="exam-content">Exam Content</h2>
+<h3 id="response-types">Response Types</h3>
+<p>All questions on the exam are multiple choice format. Each question has one correct response and three incorrect responses.</p>
+<p>Select the single response that best completes the statement or answers the question. The incorrect options are designed to be plausible to a candidate with incomplete knowledge or experience.</p>
+<p>The exam platform requires an answer to every question before you can advance, so no question is left unanswered.</p>
+<h3 id="exam-results">Exam Results</h3>
+<p>The exam has a pass or fail designation. The exam is scored against a minimum standard established by subject matter experts.</p>
+<p>Your results are reported as a scaled score of 100–1,000. The minimum passing score is 720. Scaled scoring models help equate scores across multiple exam forms that might have slightly different difficulty levels.</p>
+<h3 id="content-outline">Content Outline</h3>
+<p>This exam guide includes weightings, content domains, and task statements for the exam. The exam has the following content domains and weightings:</p>
+<ul>
+<li>Domain 1: Agentic Architecture &#x26; Orchestration (27% of scored content)</li>
+<li>Domain 2: Tool Design &#x26; MCP Integration (18% of scored content)</li>
+<li>Domain 3: Claude Code Configuration &#x26; Workflows (20% of scored content)</li>
+<li>Domain 4: Prompt Engineering &#x26; Structured Output (20% of scored content)</li>
+<li>Domain 5: Context Management &#x26; Reliability (15% of scored content)</li>
+</ul>
+<h2 id="exam-scenarios">Exam Scenarios</h2>
+<p>The exam uses scenario-based questions. Each scenario presents a realistic production context that frames a set of questions. During the exam, 4 scenarios will be presented and picked at random from the full set of the 6 scenarios below.</p>
+<h3 id="scenario-1-customer-support-resolution-agent">Scenario 1: Customer Support Resolution Agent</h3>
+<p>You are building a customer support resolution agent using the Claude Agent SDK. The agent handles high-ambiguity requests like returns, billing disputes, and account issues. It has access to your backend systems through custom Model Context Protocol (MCP) tools (<code>get_customer</code>, <code>lookup_order</code>, <code>process_refund</code>, <code>escalate_to_human</code>). Your target is 80%+ first-contact resolution while knowing when to escalate.</p>
+<p><strong>Primary domains:</strong> Agentic Architecture &#x26; Orchestration, Tool Design &#x26; MCP Integration, Context Management &#x26; Reliability</p>
+<h3 id="scenario-2-code-generation-with-claude-code">Scenario 2: Code Generation with Claude Code</h3>
+<p>You are using Claude Code to accelerate software development. Your team uses it for code generation, refactoring, debugging, and documentation. You need to integrate it into your development workflow with custom slash commands, CLAUDE.md configurations, and understand when to use plan mode vs direct execution.</p>
+<p><strong>Primary domains:</strong> Claude Code Configuration &#x26; Workflows, Context Management &#x26; Reliability</p>
+<h3 id="scenario-3-multi-agent-research-system">Scenario 3: Multi-Agent Research System</h3>
+<p>You are building a multi-agent research system using the Claude Agent SDK. A coordinator agent delegates to specialized subagents: one searches the web, one analyzes documents, one synthesizes findings, and one generates reports. The system researches topics and produces comprehensive, cited reports.</p>
+<p><strong>Primary domains:</strong> Agentic Architecture &#x26; Orchestration, Tool Design &#x26; MCP Integration, Context Management &#x26; Reliability</p>
+<h3 id="scenario-4-developer-productivity-with-claude">Scenario 4: Developer Productivity with Claude</h3>
+<p>You are building developer productivity tools using the Claude Agent SDK. The agent helps engineers explore unfamiliar codebases, understand legacy systems, generate boilerplate code, and automate repetitive tasks. It uses the built-in tools (Read, Write, Bash, Grep, Glob) and integrates with Model Context Protocol (MCP) servers.</p>
+<p><strong>Primary domains:</strong> Tool Design &#x26; MCP Integration, Claude Code Configuration &#x26; Workflows, Agentic Architecture &#x26; Orchestration</p>
+<h3 id="scenario-5-claude-code-for-continuous-integration">Scenario 5: Claude Code for Continuous Integration</h3>
+<p>You are integrating Claude Code into your Continuous Integration/Continuous Deployment (CI/CD) pipeline. The system runs automated code reviews, generates test cases, and provides feedback on pull requests. You need to design prompts that provide actionable feedback and minimize false positives.</p>
+<p><strong>Primary domains:</strong> Claude Code Configuration &#x26; Workflows, Prompt Engineering &#x26; Structured Output</p>
+<h3 id="scenario-6-structured-data-extraction">Scenario 6: Structured Data Extraction</h3>
+<p>You are building a structured data extraction system using Claude. The system extracts information from unstructured documents, validates the output using JavaScript Object Notation (JSON) schemas, and maintains high accuracy. It must handle edge cases gracefully and integrate with downstream systems.</p>
+<p><strong>Primary domains:</strong> Prompt Engineering &#x26; Structured Output, Context Management &#x26; Reliability</p>
+<h2 id="domain-1-agentic-architecture--orchestration">Domain 1: Agentic Architecture &#x26; Orchestration</h2>
+<h3 id="task-statement-11-design-and-implement-agentic-loops-for-autonomous-task-execution">Task Statement 1.1: Design and implement agentic loops for autonomous task execution</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>The agentic loop lifecycle: sending requests to Claude, inspecting <code>stop_reason</code> (“tool_use” vs “end_turn”), executing requested tools, and returning results for the next iteration</li>
+<li>How tool results are appended to conversation history so the model can reason about the next action</li>
+<li>The distinction between model-driven decision-making (Claude reasons about which tool to call next based on context) and pre-configured decision trees or tool sequences</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Implementing agentic loop control flow that continues when <code>stop_reason</code> is “tool_use” and terminates when <code>stop_reason</code> is “end_turn”</li>
+<li>Adding tool results to conversation context between iterations so the model can incorporate new information into its reasoning</li>
+<li>Avoiding anti-patterns such as parsing natural language signals to determine loop termination, setting arbitrary iteration caps as the primary stopping mechanism, or checking for assistant text content as a completion indicator</li>
+</ul>
+<h3 id="task-statement-12-orchestrate-multi-agent-systems-with-coordinator-subagent-patterns">Task Statement 1.2: Orchestrate multi-agent systems with coordinator-subagent patterns</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>Hub-and-spoke architecture where a coordinator agent manages all inter-subagent communication, error handling, and information routing</li>
+<li>How subagents operate with isolated context — they do not inherit the coordinator’s conversation history automatically</li>
+<li>The role of the coordinator in task decomposition, delegation, result aggregation, and deciding which subagents to invoke based on query complexity</li>
+<li>Risks of overly narrow task decomposition by the coordinator, leading to incomplete coverage of broad research topics</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Designing coordinator agents that analyze query requirements and dynamically select which subagents to invoke rather than always routing through the full pipeline</li>
+<li>Partitioning research scope across subagents to minimize duplication (e.g., assigning distinct subtopics or source types to each agent)</li>
+<li>Implementing iterative refinement loops where the coordinator evaluates synthesis output for gaps, re-delegates to search and analysis subagents with targeted queries, and re-invokes synthesis until coverage is sufficient</li>
+<li>Routing all subagent communication through the coordinator for observability, consistent error handling, and controlled information flow</li>
+</ul>
+<h3 id="task-statement-13-configure-subagent-invocation-context-passing-and-spawning">Task Statement 1.3: Configure subagent invocation, context passing, and spawning</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>The <code>Task</code> tool as the mechanism for spawning subagents, and the requirement that <code>allowedTools</code> must include “Task” for a coordinator to invoke subagents</li>
+<li>That subagent context must be explicitly provided in the prompt — subagents do not automatically inherit parent context or share memory between invocations</li>
+<li>The <code>AgentDefinition</code> configuration including descriptions, system prompts, and tool restrictions for each subagent type</li>
+<li>Fork-based session management for exploring divergent approaches from a shared analysis baseline</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Including complete findings from prior agents directly in the subagent’s prompt (e.g., passing web search results and document analysis outputs to the synthesis subagent)</li>
+<li>Using structured data formats to separate content from metadata (source URLs, document names, page numbers) when passing context between agents to preserve attribution</li>
+<li>Spawning parallel subagents by emitting multiple Task tool calls in a single coordinator response rather than across separate turns</li>
+<li>Designing coordinator prompts that specify research goals and quality criteria rather than step-by-step procedural instructions, to enable subagent adaptability</li>
+</ul>
+<h3 id="task-statement-14-implement-multi-step-workflows-with-enforcement-and-handoff-patterns">Task Statement 1.4: Implement multi-step workflows with enforcement and handoff patterns</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>The difference between programmatic enforcement (hooks, prerequisite gates) and prompt-based guidance for workflow ordering</li>
+<li>When deterministic compliance is required (e.g., identity verification before financial operations), prompt instructions alone have a non-zero failure rate</li>
+<li>Structured handoff protocols for mid-process escalation that include customer details, root cause analysis, and recommended actions</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Implementing programmatic prerequisites that block downstream tool calls until prerequisite steps have completed (e.g., blocking <code>process_refund</code> until <code>get_customer</code> has returned a verified customer ID)</li>
+<li>Decomposing multi-concern customer requests into distinct items, then investigating each in parallel using shared context before synthesizing a unified resolution</li>
+<li>Compiling structured handoff summaries (customer ID, root cause, refund amount, recommended action) when escalating to human agents who lack access to the conversation transcript</li>
+</ul>
+<h3 id="task-statement-15-apply-agent-sdk-hooks-for-tool-call-interception-and-data-normalization">Task Statement 1.5: Apply Agent SDK hooks for tool call interception and data normalization</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>Hook patterns (e.g., <code>PostToolUse</code>) that intercept tool results for transformation before the model processes them</li>
+<li>Hook patterns that intercept outgoing tool calls to enforce compliance rules (e.g., blocking refunds above a threshold)</li>
+<li>The distinction between using hooks for deterministic guarantees versus relying on prompt instructions for probabilistic compliance</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Implementing <code>PostToolUse</code> hooks to normalize heterogeneous data formats (Unix timestamps, ISO 8601, numeric status codes) from different MCP tools before the agent processes them</li>
+<li>Implementing tool call interception hooks that block policy-violating actions (e.g., refunds exceeding $500) and redirect to alternative workflows (e.g., human escalation)</li>
+<li>Choosing hooks over prompt-based enforcement when business rules require guaranteed compliance</li>
+</ul>
+<h3 id="task-statement-16-design-task-decomposition-strategies-for-complex-workflows">Task Statement 1.6: Design task decomposition strategies for complex workflows</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>When to use fixed sequential pipelines (prompt chaining) versus dynamic adaptive decomposition based on intermediate findings</li>
+<li>Prompt chaining patterns that break reviews into sequential steps (e.g., analyze each file individually, then run a cross-file integration pass)</li>
+<li>The value of adaptive investigation plans that generate subtasks based on what is discovered at each step</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Selecting task decomposition patterns appropriate to the workflow: prompt chaining for predictable multi-aspect reviews, dynamic decomposition for open-ended investigation tasks</li>
+<li>Splitting large code reviews into per-file local analysis passes plus a separate cross-file integration pass to avoid attention dilution</li>
+<li>Decomposing open-ended tasks (e.g., “add comprehensive tests to a legacy codebase”) by first mapping structure, identifying high-impact areas, then creating a prioritized plan that adapts as dependencies are discovered</li>
+</ul>
+<h3 id="task-statement-17-manage-session-state-resumption-and-forking">Task Statement 1.7: Manage session state, resumption, and forking</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>Named session resumption using <code>--resume &#x3C;session-name></code> to continue a specific prior conversation</li>
+<li><code>fork_session</code> for creating independent branches from a shared analysis baseline to explore divergent approaches</li>
+<li>The importance of informing the agent about changes to previously analyzed files when resuming sessions after code modifications</li>
+<li>Why starting a new session with a structured summary is more reliable than resuming with stale tool results</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Using <code>--resume</code> with session names to continue named investigation sessions across work sessions</li>
+<li>Using <code>fork_session</code> to create parallel exploration branches (e.g., comparing two testing strategies or refactoring approaches from a shared codebase analysis)</li>
+<li>Choosing between session resumption (when prior context is mostly valid) and starting fresh with injected summaries (when prior tool results are stale)</li>
+<li>Informing a resumed session about specific file changes for targeted re-analysis rather than requiring full re-exploration</li>
+</ul>
+<h2 id="domain-2-tool-design--mcp-integration">Domain 2: Tool Design &#x26; MCP Integration</h2>
+<h3 id="task-statement-21-design-effective-tool-interfaces-with-clear-descriptions-and-boundaries">Task Statement 2.1: Design effective tool interfaces with clear descriptions and boundaries</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>Tool descriptions as the primary mechanism LLMs use for tool selection; minimal descriptions lead to unreliable selection among similar tools</li>
+<li>The importance of including input formats, example queries, edge cases, and boundary explanations in tool descriptions</li>
+<li>How ambiguous or overlapping tool descriptions cause misrouting (e.g., <code>analyze_content</code> vs <code>analyze_document</code> with near-identical descriptions)</li>
+<li>The impact of system prompt wording on tool selection: keyword-sensitive instructions can create unintended tool associations</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Writing tool descriptions that clearly differentiate each tool’s purpose, expected inputs, outputs, and when to use it versus similar alternatives</li>
+<li>Renaming tools and updating descriptions to eliminate functional overlap (e.g., renaming <code>analyze_content</code> to <code>extract_web_results</code> with a web-specific description)</li>
+<li>Splitting generic tools into purpose-specific tools with defined input/output contracts (e.g., splitting a generic <code>analyze_document</code> into <code>extract_data_points</code>, <code>summarize_content</code>, and <code>verify_claim_against_source</code>)</li>
+<li>Reviewing system prompts for keyword-sensitive instructions that might override well-written tool descriptions</li>
+</ul>
+<h3 id="task-statement-22-implement-structured-error-responses-for-mcp-tools">Task Statement 2.2: Implement structured error responses for MCP tools</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>The MCP <code>isError</code> flag pattern for communicating tool failures back to the agent</li>
+<li>The distinction between transient errors (timeouts, service unavailability), validation errors (invalid input), business errors (policy violations), and permission errors</li>
+<li>Why uniform error responses (generic “Operation failed”) prevent the agent from making appropriate recovery decisions</li>
+<li>The difference between retryable and non-retryable errors, and how returning structured metadata prevents wasted retry attempts</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Returning structured error metadata including <code>errorCategory</code> (transient/validation/permission), <code>isRetryable</code> boolean, and human-readable descriptions</li>
+<li>Including <code>retriable: false</code> flags and customer-friendly explanations for business rule violations so the agent can communicate appropriately</li>
+<li>Implementing local error recovery within subagents for transient failures, propagating to the coordinator only errors that cannot be resolved locally along with partial results and what was attempted</li>
+<li>Distinguishing between access failures (needing retry decisions) and valid empty results (representing successful queries with no matches)</li>
+</ul>
+<h3 id="task-statement-23-distribute-tools-appropriately-across-agents-and-configure-tool-choice">Task Statement 2.3: Distribute tools appropriately across agents and configure tool choice</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>The principle that giving an agent access to too many tools (e.g., 18 instead of 4-5) degrades tool selection reliability by increasing decision complexity</li>
+<li>Why agents with tools outside their specialization tend to misuse them (e.g., a synthesis agent attempting web searches)</li>
+<li>Scoped tool access: giving agents only the tools needed for their role, with limited cross-role tools for specific high-frequency needs</li>
+<li><code>tool_choice</code> configuration options: “auto”, “any”, and forced tool selection (<code>{"type": "tool", "name": "..."}</code>)</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Restricting each subagent’s tool set to those relevant to its role, preventing cross-specialization misuse</li>
+<li>Replacing generic tools with constrained alternatives (e.g., replacing <code>fetch_url</code> with <code>load_document</code> that validates document URLs)</li>
+<li>Providing scoped cross-role tools for high-frequency needs (e.g., a <code>verify_fact</code> tool for the synthesis agent) while routing complex cases through the coordinator</li>
+<li>Using <code>tool_choice</code> forced selection to ensure a specific tool is called first (e.g., forcing <code>extract_metadata</code> before enrichment tools), then processing subsequent steps in follow-up turns</li>
+<li>Setting <code>tool_choice: "any"</code> to guarantee the model calls a tool rather than returning conversational text</li>
+</ul>
+<h3 id="task-statement-24-integrate-mcp-servers-into-claude-code-and-agent-workflows">Task Statement 2.4: Integrate MCP servers into Claude Code and agent workflows</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>MCP server scoping: project-level (<code>.mcp.json</code>) for shared team tooling vs user-level (<code>~/.claude.json</code>) for personal/experimental servers</li>
+<li>Environment variable expansion in <code>.mcp.json</code> (e.g., <code>${GITHUB_TOKEN}</code>) for credential management without committing secrets</li>
+<li>That tools from all configured MCP servers are discovered at connection time and available simultaneously to the agent</li>
+<li>MCP resources as a mechanism for exposing content catalogs (e.g., issue summaries, documentation hierarchies, database schemas) to reduce exploratory tool calls</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Configuring shared MCP servers in project-scoped <code>.mcp.json</code> with environment variable expansion for authentication tokens</li>
+<li>Configuring personal/experimental MCP servers in user-scoped <code>~/.claude.json</code></li>
+<li>Enhancing MCP tool descriptions to explain capabilities and outputs in detail, preventing the agent from preferring built-in tools (like Grep) over more capable MCP tools</li>
+<li>Choosing existing community MCP servers over custom implementations for standard integrations (e.g., Jira), reserving custom servers for team-specific workflows</li>
+<li>Exposing content catalogs as MCP resources to give agents visibility into available data without requiring exploratory tool calls</li>
+</ul>
+<h3 id="task-statement-25-select-and-apply-built-in-tools-read-write-edit-bash-grep-glob-effectively">Task Statement 2.5: Select and apply built-in tools (Read, Write, Edit, Bash, Grep, Glob) effectively</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>Grep for content search (searching file contents for patterns like function names, error messages, or import statements)</li>
+<li>Glob for file path pattern matching (finding files by name or extension patterns)</li>
+<li>Read/Write for full file operations; Edit for targeted modifications using unique text matching</li>
+<li>When Edit fails due to non-unique text matches, using Read + Write as a fallback for reliable file modifications</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Selecting Grep for searching code content across a codebase (e.g., finding all callers of a function, locating error messages)</li>
+<li>Selecting Glob for finding files matching naming patterns (e.g., <code>**/*.test.tsx</code>)</li>
+<li>Using Read to load full file contents followed by Write when Edit cannot find unique anchor text</li>
+<li>Building codebase understanding incrementally: starting with Grep to find entry points, then using Read to follow imports and trace flows, rather than reading all files upfront</li>
+<li>Tracing function usage across wrapper modules by first identifying all exported names, then searching for each name across the codebase</li>
+</ul>
+<h2 id="domain-3-claude-code-configuration--workflows">Domain 3: Claude Code Configuration &#x26; Workflows</h2>
+<h3 id="task-statement-31-configure-claudemd-files-with-appropriate-hierarchy-scoping-and-modular-organization">Task Statement 3.1: Configure CLAUDE.md files with appropriate hierarchy, scoping, and modular organization</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>The CLAUDE.md configuration hierarchy: user-level (<code>~/.claude/CLAUDE.md</code>), project-level (<code>.claude/CLAUDE.md</code> or root <code>CLAUDE.md</code>), and directory-level (subdirectory <code>CLAUDE.md</code> files)</li>
+<li>That user-level settings apply only to that user — instructions in <code>~/.claude/CLAUDE.md</code> are not shared with teammates via version control</li>
+<li>The <code>@import</code> syntax for referencing external files to keep CLAUDE.md modular (e.g., importing specific standards files relevant to each package)</li>
+<li><code>.claude/rules/</code> directory for organizing topic-specific rule files as an alternative to a monolithic CLAUDE.md</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Diagnosing configuration hierarchy issues (e.g., a new team member not receiving instructions because they’re in user-level rather than project-level configuration)</li>
+<li>Using <code>@import</code> to selectively include relevant standards files in each package’s CLAUDE.md based on maintainer domain knowledge</li>
+<li>Splitting large CLAUDE.md files into focused topic-specific files in <code>.claude/rules/</code> (e.g., <code>testing.md</code>, <code>api-conventions.md</code>, <code>deployment.md</code>)</li>
+<li>Using the <code>/memory</code> command to verify which memory files are loaded and diagnose inconsistent behavior across sessions</li>
+</ul>
+<h3 id="task-statement-32-create-and-configure-custom-slash-commands-and-skills">Task Statement 3.2: Create and configure custom slash commands and skills</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>Project-scoped commands in <code>.claude/commands/</code> (shared via version control) vs user-scoped commands in <code>~/.claude/commands/</code> (personal)</li>
+<li>Skills in <code>.claude/skills/</code> with SKILL.md files that support frontmatter configuration including <code>context: fork</code>, <code>allowed-tools</code>, and <code>argument-hint</code></li>
+<li>The <code>context: fork</code> frontmatter option for running skills in an isolated sub-agent context, preventing skill outputs from polluting the main conversation</li>
+<li>Personal skill customization: creating personal variants in <code>~/.claude/skills/</code> with different names to avoid affecting teammates</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Creating project-scoped slash commands in <code>.claude/commands/</code> for team-wide availability via version control</li>
+<li>Using <code>context: fork</code> to isolate skills that produce verbose output (e.g., codebase analysis) or exploratory context (e.g., brainstorming alternatives) from the main session</li>
+<li>Configuring <code>allowed-tools</code> in skill frontmatter to restrict tool access during skill execution (e.g., limiting to file write operations to prevent destructive actions)</li>
+<li>Using <code>argument-hint</code> frontmatter to prompt developers for required parameters when they invoke the skill without arguments</li>
+<li>Choosing between skills (on-demand invocation for task-specific workflows) and CLAUDE.md (always-loaded universal standards)</li>
+</ul>
+<h3 id="task-statement-33-apply-path-specific-rules-for-conditional-convention-loading">Task Statement 3.3: Apply path-specific rules for conditional convention loading</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li><code>.claude/rules/</code> files with YAML frontmatter <code>paths</code> fields containing glob patterns for conditional rule activation</li>
+<li>How path-scoped rules load only when editing matching files, reducing irrelevant context and token usage</li>
+<li>The advantage of glob-pattern rules over directory-level CLAUDE.md files for conventions that span multiple directories (e.g., test files spread throughout a codebase)</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Creating <code>.claude/rules/</code> files with YAML frontmatter path scoping (e.g., <code>paths: ["terraform/**/*"]</code>) so rules load only when editing matching files</li>
+<li>Using glob patterns in path-specific rules to apply conventions to files by type regardless of directory location (e.g., <code>**/*.test.tsx</code> for all test files)</li>
+<li>Choosing path-specific rules over subdirectory CLAUDE.md files when conventions must apply to files spread across the codebase</li>
+</ul>
+<h3 id="task-statement-34-determine-when-to-use-plan-mode-vs-direct-execution">Task Statement 3.4: Determine when to use plan mode vs direct execution</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>Plan mode is designed for complex tasks involving large-scale changes, multiple valid approaches, architectural decisions, and multi-file modifications</li>
+<li>Direct execution is appropriate for simple, well-scoped changes (e.g., adding a single validation check to one function)</li>
+<li>Plan mode enables safe codebase exploration and design before committing to changes, preventing costly rework</li>
+<li>The Explore subagent for isolating verbose discovery output and returning summaries to preserve main conversation context</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Selecting plan mode for tasks with architectural implications (e.g., microservice restructuring, library migrations affecting 45+ files, choosing between integration approaches with different infrastructure requirements)</li>
+<li>Selecting direct execution for well-understood changes with clear scope (e.g., a single-file bug fix with a clear stack trace, adding a date validation conditional)</li>
+<li>Using the Explore subagent for verbose discovery phases to prevent context window exhaustion during multi-phase tasks</li>
+<li>Combining plan mode for investigation with direct execution for implementation (e.g., planning a library migration, then executing the planned approach)</li>
+</ul>
+<h3 id="task-statement-35-apply-iterative-refinement-techniques-for-progressive-improvement">Task Statement 3.5: Apply iterative refinement techniques for progressive improvement</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>Concrete input/output examples as the most effective way to communicate expected transformations when prose descriptions are interpreted inconsistently</li>
+<li>Test-driven iteration: writing test suites first, then iterating by sharing test failures to guide progressive improvement</li>
+<li>The interview pattern: having Claude ask questions to surface considerations the developer may not have anticipated before implementing</li>
+<li>When to provide all issues in a single message (interacting problems) versus fixing them sequentially (independent problems)</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Providing 2-3 concrete input/output examples to clarify transformation requirements when natural language descriptions produce inconsistent results</li>
+<li>Writing test suites covering expected behavior, edge cases, and performance requirements before implementation, then iterating by sharing test failures</li>
+<li>Using the interview pattern to surface design considerations (e.g., cache invalidation strategies, failure modes) before implementing solutions in unfamiliar domains</li>
+<li>Providing specific test cases with example input and expected output to fix edge case handling (e.g., null values in migration scripts)</li>
+<li>Addressing multiple interacting issues in a single detailed message when fixes interact, versus sequential iteration for independent issues</li>
+</ul>
+<h3 id="task-statement-36-integrate-claude-code-into-cicd-pipelines">Task Statement 3.6: Integrate Claude Code into CI/CD pipelines</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>The <code>-p</code> (or <code>--print</code>) flag for running Claude Code in non-interactive mode in automated pipelines</li>
+<li><code>--output-format json</code> and <code>--json-schema</code> CLI flags for enforcing structured output in CI contexts</li>
+<li>CLAUDE.md as the mechanism for providing project context (testing standards, fixture conventions, review criteria) to CI-invoked Claude Code</li>
+<li>Session context isolation: why the same Claude session that generated code is less effective at reviewing its own changes compared to an independent review instance</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Running Claude Code in CI with the <code>-p</code> flag to prevent interactive input hangs</li>
+<li>Using <code>--output-format json</code> with <code>--json-schema</code> to produce machine-parseable structured findings for automated posting as inline PR comments</li>
+<li>Including prior review findings in context when re-running reviews after new commits, instructing Claude to report only new or still-unaddressed issues to avoid duplicate comments</li>
+<li>Providing existing test files in context so test generation avoids suggesting duplicate scenarios already covered by the test suite</li>
+<li>Documenting testing standards, valuable test criteria, and available fixtures in CLAUDE.md to improve test generation quality and reduce low-value test output</li>
+</ul>
+<h2 id="domain-4-prompt-engineering--structured-output">Domain 4: Prompt Engineering &#x26; Structured Output</h2>
+<h3 id="task-statement-41-design-prompts-with-explicit-criteria-to-improve-precision-and-reduce-false-positives">Task Statement 4.1: Design prompts with explicit criteria to improve precision and reduce false positives</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>The importance of explicit criteria over vague instructions (e.g., “flag comments only when claimed behavior contradicts actual code behavior” vs “check that comments are accurate”)</li>
+<li>How general instructions like “be conservative” or “only report high-confidence findings” fail to improve precision compared to specific categorical criteria</li>
+<li>The impact of false positive rates on developer trust: high false positive categories undermine confidence in accurate categories</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Writing specific review criteria that define which issues to report (bugs, security) versus skip (minor style, local patterns) rather than relying on confidence-based filtering</li>
+<li>Temporarily disabling high false-positive categories to restore developer trust while improving prompts for those categories</li>
+<li>Defining explicit severity criteria with concrete code examples for each severity level to achieve consistent classification</li>
+</ul>
+<h3 id="task-statement-42-apply-few-shot-prompting-to-improve-output-consistency-and-quality">Task Statement 4.2: Apply few-shot prompting to improve output consistency and quality</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>Few-shot examples as the most effective technique for achieving consistently formatted, actionable output when detailed instructions alone produce inconsistent results</li>
+<li>The role of few-shot examples in demonstrating ambiguous-case handling (e.g., tool selection for ambiguous requests, branch-level test coverage gaps)</li>
+<li>How few-shot examples enable the model to generalize judgment to novel patterns rather than matching only pre-specified cases</li>
+<li>The effectiveness of few-shot examples for reducing hallucination in extraction tasks (e.g., handling informal measurements, varied document structures)</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Creating 2-4 targeted few-shot examples for ambiguous scenarios that show reasoning for why one action was chosen over plausible alternatives</li>
+<li>Including few-shot examples that demonstrate specific desired output format (location, issue, severity, suggested fix) to achieve consistency</li>
+<li>Providing few-shot examples distinguishing acceptable code patterns from genuine issues to reduce false positives while enabling generalization</li>
+<li>Using few-shot examples to demonstrate correct handling of varied document structures (inline citations vs bibliographies, methodology sections vs embedded details)</li>
+<li>Adding few-shot examples showing correct extraction from documents with varied formats to address empty/null extraction of required fields</li>
+</ul>
+<h3 id="task-statement-43-enforce-structured-output-using-tool-use-and-json-schemas">Task Statement 4.3: Enforce structured output using tool use and JSON schemas</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>Tool use (<code>tool_use</code>) with JSON schemas as the most reliable approach for guaranteed schema-compliant structured output, eliminating JSON syntax errors</li>
+<li>The distinction between <code>tool_choice</code>: “auto” (model may return text instead of calling a tool), “any” (model must call a tool but can choose which), and forced tool selection (model must call a specific named tool)</li>
+<li>That strict JSON schemas via tool use eliminate syntax errors but do not prevent semantic errors (e.g., line items that don’t sum to total, values in wrong fields)</li>
+<li>Schema design considerations: required vs optional fields, enum fields with “other” + detail string patterns for extensible categories</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Defining extraction tools with JSON schemas as input parameters and extracting structured data from the <code>tool_use</code> response</li>
+<li>Setting <code>tool_choice</code>: “any” to guarantee structured output when multiple extraction schemas exist and the document type is unknown</li>
+<li>Forcing a specific tool with <code>tool_choice</code>: <code>{"type": "tool", "name": "extract_metadata"}</code> to ensure a particular extraction runs before enrichment steps</li>
+<li>Designing schema fields as optional (nullable) when source documents may not contain the information, preventing the model from fabricating values to satisfy required fields</li>
+<li>Adding enum values like “unclear” for ambiguous cases and “other” + detail fields for extensible categorization</li>
+<li>Including format normalization rules in prompts alongside strict output schemas to handle inconsistent source formatting</li>
+</ul>
+<h3 id="task-statement-44-implement-validation-retry-and-feedback-loops-for-extraction-quality">Task Statement 4.4: Implement validation, retry, and feedback loops for extraction quality</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>Retry-with-error-feedback: appending specific validation errors to the prompt on retry to guide the model toward correction</li>
+<li>The limits of retry: retries are ineffective when the required information is simply absent from the source document (vs format or structural errors)</li>
+<li>Feedback loop design: tracking which code constructs trigger findings (<code>detected_pattern</code> field) to enable systematic analysis of dismissal patterns</li>
+<li>The difference between semantic validation errors (values don’t sum, wrong field placement) and schema syntax errors (eliminated by tool use)</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Implementing follow-up requests that include the original document, the failed extraction, and specific validation errors for model self-correction</li>
+<li>Identifying when retries will be ineffective (e.g., information exists only in an external document not provided) versus when they will succeed (format mismatches, structural output errors)</li>
+<li>Adding <code>detected_pattern</code> fields to structured findings to enable analysis of false positive patterns when developers dismiss findings</li>
+<li>Designing self-correction validation flows: extracting “calculated_total” alongside “stated_total” to flag discrepancies, adding “conflict_detected” booleans for inconsistent source data</li>
+</ul>
+<h3 id="task-statement-45-design-efficient-batch-processing-strategies">Task Statement 4.5: Design efficient batch processing strategies</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>The Message Batches API: 50% cost savings, up to 24-hour processing window, no guaranteed latency SLA</li>
+<li>Batch processing is appropriate for non-blocking, latency-tolerant workloads (overnight reports, weekly audits, nightly test generation) and inappropriate for blocking workflows (pre-merge checks)</li>
+<li>The batch API does not support multi-turn tool calling within a single request (cannot execute tools mid-request and return results)</li>
+<li><code>custom_id</code> fields for correlating batch request/response pairs</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Matching API approach to workflow latency requirements: synchronous API for blocking pre-merge checks, batch API for overnight/weekly analysis</li>
+<li>Calculating batch submission frequency based on SLA constraints (e.g., 4-hour windows to guarantee a 30-hour SLA with 24-hour batch processing)</li>
+<li>Handling batch failures: resubmitting only failed documents (identified by <code>custom_id</code>) with appropriate modifications (e.g., chunking documents that exceeded context limits)</li>
+<li>Using prompt refinement on a sample set before batch-processing large volumes to maximize first-pass success rates and reduce iterative resubmission costs</li>
+</ul>
+<h3 id="task-statement-46-design-multi-instance-and-multi-pass-review-architectures">Task Statement 4.6: Design multi-instance and multi-pass review architectures</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>Self-review limitations: a model retains reasoning context from generation, making it less likely to question its own decisions in the same session</li>
+<li>Independent review instances (without prior reasoning context) are more effective at catching subtle issues than self-review instructions or extended thinking</li>
+<li>Multi-pass review: splitting large reviews into per-file local analysis passes plus cross-file integration passes to avoid attention dilution and contradictory findings</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Using a second independent Claude instance to review generated code without the generator’s reasoning context</li>
+<li>Splitting large multi-file reviews into focused per-file passes for local issues plus separate integration passes for cross-file data flow analysis</li>
+<li>Running verification passes where the model self-reports confidence alongside each finding to enable calibrated review routing</li>
+</ul>
+<h2 id="domain-5-context-management--reliability">Domain 5: Context Management &#x26; Reliability</h2>
+<h3 id="task-statement-51-manage-conversation-context-to-preserve-critical-information-across-long-interactions">Task Statement 5.1: Manage conversation context to preserve critical information across long interactions</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>Progressive summarization risks: condensing numerical values, percentages, dates, and customer-stated expectations into vague summaries</li>
+<li>The “lost in the middle” effect: models reliably process information at the beginning and end of long inputs but may omit findings from middle sections</li>
+<li>How tool results accumulate in context and consume tokens disproportionately to their relevance (e.g., 40+ fields per order lookup when only 5 are relevant)</li>
+<li>The importance of passing complete conversation history in subsequent API requests to maintain conversational coherence</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Extracting transactional facts (amounts, dates, order numbers, statuses) into a persistent “case facts” block included in each prompt, outside summarized history</li>
+<li>Extracting and persisting structured issue data (order IDs, amounts, statuses) into a separate context layer for multi-issue sessions</li>
+<li>Trimming verbose tool outputs to only relevant fields before they accumulate in context (e.g., keeping only return-relevant fields from order lookups)</li>
+<li>Placing key findings summaries at the beginning of aggregated inputs and organizing detailed results with explicit section headers to mitigate position effects</li>
+<li>Requiring subagents to include metadata (dates, source locations, methodological context) in structured outputs to support accurate downstream synthesis</li>
+<li>Modifying upstream agents to return structured data (key facts, citations, relevance scores) instead of verbose content and reasoning chains when downstream agents have limited context budgets</li>
+</ul>
+<h3 id="task-statement-52-design-effective-escalation-and-ambiguity-resolution-patterns">Task Statement 5.2: Design effective escalation and ambiguity resolution patterns</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>Appropriate escalation triggers: customer requests for a human, policy exceptions/gaps (not just complex cases), and inability to make meaningful progress</li>
+<li>The distinction between escalating immediately when a customer explicitly demands it versus offering to resolve when the issue is straightforward</li>
+<li>Why sentiment-based escalation and self-reported confidence scores are unreliable proxies for actual case complexity</li>
+<li>How multiple customer matches require clarification (requesting additional identifiers) rather than heuristic selection</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Adding explicit escalation criteria with few-shot examples to the system prompt demonstrating when to escalate versus resolve autonomously</li>
+<li>Honoring explicit customer requests for human agents immediately without first attempting investigation</li>
+<li>Acknowledging frustration while offering resolution when the issue is within the agent’s capability, escalating only if the customer reiterates their preference</li>
+<li>Escalating when policy is ambiguous or silent on the customer’s specific request (e.g., competitor price matching when policy only addresses own-site adjustments)</li>
+<li>Instructing the agent to ask for additional identifiers when tool results return multiple matches, rather than selecting based on heuristics</li>
+</ul>
+<h3 id="task-statement-53-implement-error-propagation-strategies-across-multi-agent-systems">Task Statement 5.3: Implement error propagation strategies across multi-agent systems</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>Structured error context (failure type, attempted query, partial results, alternative approaches) as enabling intelligent coordinator recovery decisions</li>
+<li>The distinction between access failures (timeouts needing retry decisions) and valid empty results (successful queries with no matches)</li>
+<li>Why generic error statuses (“search unavailable”) hide valuable context from the coordinator</li>
+<li>Why silently suppressing errors (returning empty results as success) or terminating entire workflows on single failures are both anti-patterns</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Returning structured error context including failure type, what was attempted, partial results, and potential alternatives to enable coordinator recovery</li>
+<li>Distinguishing access failures from valid empty results in error reporting so the coordinator can make appropriate decisions</li>
+<li>Having subagents implement local recovery for transient failures and only propagate errors they cannot resolve, including what was attempted and partial results</li>
+<li>Structuring synthesis output with coverage annotations indicating which findings are well-supported versus which topic areas have gaps due to unavailable sources</li>
+</ul>
+<h3 id="task-statement-54-manage-context-effectively-in-large-codebase-exploration">Task Statement 5.4: Manage context effectively in large codebase exploration</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>Context degradation in extended sessions: models start giving inconsistent answers and referencing “typical patterns” rather than specific classes discovered earlier</li>
+<li>The role of scratchpad files for persisting key findings across context boundaries</li>
+<li>Subagent delegation for isolating verbose exploration output while the main agent coordinates high-level understanding</li>
+<li>Structured state persistence for crash recovery: each agent exports state to a known location, and the coordinator loads a manifest on resume</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Spawning subagents to investigate specific questions (e.g., “find all test files,” “trace refund flow dependencies”) while the main agent preserves high-level coordination</li>
+<li>Having agents maintain scratchpad files recording key findings, referencing them for subsequent questions to counteract context degradation</li>
+<li>Summarizing key findings from one exploration phase before spawning sub-agents for the next phase, injecting summaries into initial context</li>
+<li>Designing crash recovery using structured agent state exports (manifests) that the coordinator loads on resume and injects into agent prompts</li>
+<li>Using <code>/compact</code> to reduce context usage during extended exploration sessions when context fills with verbose discovery output</li>
+</ul>
+<h3 id="task-statement-55-design-human-review-workflows-and-confidence-calibration">Task Statement 5.5: Design human review workflows and confidence calibration</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>The risk that aggregate accuracy metrics (e.g., 97% overall) may mask poor performance on specific document types or fields</li>
+<li>Stratified random sampling for measuring error rates in high-confidence extractions and detecting novel error patterns</li>
+<li>Field-level confidence scores calibrated using labeled validation sets for routing review attention</li>
+<li>The importance of validating accuracy by document type and field segment before automating high-confidence extractions</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Implementing stratified random sampling of high-confidence extractions for ongoing error rate measurement and novel pattern detection</li>
+<li>Analyzing accuracy by document type and field to verify consistent performance across all segments before reducing human review</li>
+<li>Having models output field-level confidence scores, then calibrating review thresholds using labeled validation sets</li>
+<li>Routing extractions with low model confidence or ambiguous/contradictory source documents to human review, prioritizing limited reviewer capacity</li>
+</ul>
+<h3 id="task-statement-56-preserve-information-provenance-and-handle-uncertainty-in-multi-source-synthesis">Task Statement 5.6: Preserve information provenance and handle uncertainty in multi-source synthesis</h3>
+<p><strong>Knowledge of:</strong></p>
+<ul>
+<li>How source attribution is lost during summarization steps when findings are compressed without preserving claim-source mappings</li>
+<li>The importance of structured claim-source mappings that the synthesis agent must preserve and merge when combining findings</li>
+<li>How to handle conflicting statistics from credible sources: annotating conflicts with source attribution rather than arbitrarily selecting one value</li>
+<li>Temporal data: requiring publication/collection dates in structured outputs to prevent temporal differences from being misinterpreted as contradictions</li>
+</ul>
+<p><strong>Skills in:</strong></p>
+<ul>
+<li>Requiring subagents to output structured claim-source mappings (source URLs, document names, relevant excerpts) that downstream agents preserve through synthesis</li>
+<li>Structuring reports with explicit sections distinguishing well-established findings from contested ones, preserving original source characterizations and methodological context</li>
+<li>Completing document analysis with conflicting values included and explicitly annotated, letting the coordinator decide how to reconcile before passing to synthesis</li>
+<li>Requiring subagents to include publication or data collection dates in structured outputs to enable correct temporal interpretation</li>
+<li>Rendering different content types appropriately in synthesis outputs — financial data as tables, news as prose, technical findings as structured lists — rather than converting everything to a uniform format</li>
+</ul>
+<h2 id="sample-questions">Sample Questions</h2>
+<p>The following sample questions illustrate the format and difficulty level of the exam. These are drawn from the practice test and include explanations to aid learning.</p>
+<h3 id="scenario-customer-support-resolution-agent">Scenario: Customer Support Resolution Agent</h3>
+<p><strong>Question 1:</strong> Production data shows that in 12% of cases, your agent skips <code>get_customer</code> entirely and calls <code>lookup_order</code> using only the customer’s stated name, occasionally leading to misidentified accounts and incorrect refunds. What change would most effectively address this reliability issue?</p>
+<p>A) Add a programmatic prerequisite that blocks <code>lookup_order</code> and <code>process_refund</code> calls until <code>get_customer</code> has returned a verified customer ID.
+B) Enhance the system prompt to state that customer verification via <code>get_customer</code> is mandatory before any order operations.
+C) Add few-shot examples showing the agent always calling <code>get_customer</code> first, even when customers volunteer order details.
+D) Implement a routing classifier that analyzes each request and enables only the subset of tools appropriate for that request type.</p>
+<p><strong>Correct Answer: A</strong> — When a specific tool sequence is required for critical business logic (like verifying customer identity before processing refunds), programmatic enforcement provides deterministic guarantees that prompt-based approaches cannot. Options B and C rely on probabilistic LLM compliance, which is insufficient when errors have financial consequences. Option D addresses tool availability rather than tool ordering, which is not the actual problem.</p>
+<p><strong>Question 2:</strong> Production logs show the agent frequently calls <code>get_customer</code> when users ask about orders (e.g., “check my order #12345”), instead of calling <code>lookup_order</code>. Both tools have minimal descriptions (“Retrieves customer information” / “Retrieves order details”) and accept similar identifier formats. What’s the most effective first step to improve tool selection reliability?</p>
+<p>A) Add few-shot examples to the system prompt demonstrating correct tool selection patterns, with 5-8 examples showing order-related queries routing to <code>lookup_order</code>.
+B) Expand each tool’s description to include input formats it handles, example queries, edge cases, and boundaries explaining when to use it versus similar tools.
+C) Implement a routing layer that parses user input before each turn and pre-selects the appropriate tool based on detected keywords and identifier patterns.
+D) Consolidate both tools into a single <code>lookup_entity</code> tool that accepts any identifier and internally determines which backend to query.</p>
+<p><strong>Correct Answer: B</strong> — Tool descriptions are the primary mechanism LLMs use for tool selection. When descriptions are minimal, models lack the context to differentiate between similar tools. Option B directly addresses this root cause with a low-effort, high-leverage fix. Few-shot examples (A) add token overhead without fixing the underlying issue. A routing layer (C) is over-engineered and bypasses the LLM’s natural language understanding. Consolidating tools (D) is a valid architectural choice but requires more effort than a “first step” warrants when the immediate problem is inadequate descriptions.</p>
+<p><strong>Question 3:</strong> Your agent achieves 55% first-contact resolution, well below the 80% target. Logs show it escalates straightforward cases (standard damage replacements with photo evidence) while attempting to autonomously handle complex situations requiring policy exceptions. What’s the most effective way to improve escalation calibration?</p>
+<p>A) Add explicit escalation criteria to your system prompt with few-shot examples demonstrating when to escalate versus resolve autonomously.
+B) Have the agent self-report a confidence score (1-10) before each response and automatically route requests to humans when confidence falls below a threshold.
+C) Deploy a separate classifier model trained on historical tickets to predict which requests need escalation before the main agent begins processing.
+D) Implement sentiment analysis to detect customer frustration levels and automatically escalate when negative sentiment exceeds a threshold.</p>
+<p><strong>Correct Answer: A</strong> — Adding explicit escalation criteria with few-shot examples directly addresses the root cause: unclear decision boundaries. This is the proportionate first response before adding infrastructure. Option B fails because LLM self-reported confidence is poorly calibrated — the agent is already incorrectly confident on hard cases. Option C is over-engineered, requiring labeled data and ML infrastructure when prompt optimization hasn’t been tried. Option D solves a different problem entirely; sentiment doesn’t correlate with case complexity, which is the actual issue.</p>
+<h3 id="scenario-code-generation-with-claude-code">Scenario: Code Generation with Claude Code</h3>
+<p><strong>Question 4:</strong> You want to create a custom <code>/review</code> slash command that runs your team’s standard code review checklist. This command should be available to every developer when they clone or pull the repository. Where should you create this command file?</p>
+<p>A) In the <code>.claude/commands/</code> directory in the project repository
+B) In <code>~/.claude/commands/</code> in each developer’s home directory
+C) In the CLAUDE.md file at the project root
+D) In a <code>.claude/config.json</code> file with a commands array</p>
+<p><strong>Correct Answer: A</strong> — Project-scoped custom slash commands should be stored in the <code>.claude/commands/</code> directory within the repository. These commands are version-controlled and automatically available to all developers when they clone or pull the repo. Option B (<code>~/.claude/commands/</code>) is for personal commands that aren’t shared via version control. Option C (CLAUDE.md) is for project instructions and context, not command definitions. Option D describes a configuration mechanism that doesn’t exist in Claude Code.</p>
+<p><strong>Question 5:</strong> You’ve been assigned to restructure the team’s monolithic application into microservices. This will involve changes across dozens of files and requires decisions about service boundaries and module dependencies. Which approach should you take?</p>
+<p>A) Enter plan mode to explore the codebase, understand dependencies, and design an implementation approach before making changes.
+B) Start with direct execution and make changes incrementally, letting the implementation reveal the natural service boundaries.
+C) Use direct execution with comprehensive upfront instructions detailing exactly how each service should be structured.
+D) Begin in direct execution mode and only switch to plan mode if you encounter unexpected complexity during implementation.</p>
+<p><strong>Correct Answer: A</strong> — Plan mode is designed for complex tasks involving large-scale changes, multiple valid approaches, and architectural decisions — exactly what monolith-to-microservices restructuring requires. It enables safe codebase exploration and design before committing to changes. Option B risks costly rework when dependencies are discovered late. Option C assumes you already know the right structure without exploring the code. Option D ignores that the complexity is already stated in the requirements, not something that might emerge later.</p>
+<p><strong>Question 6:</strong> Your codebase has distinct areas with different coding conventions: React components use functional style with hooks, API handlers use async/await with specific error handling, and database models follow a repository pattern. Test files are spread throughout the codebase alongside the code they test (e.g., <code>Button.test.tsx</code> next to <code>Button.tsx</code>), and you want all tests to follow the same conventions regardless of location. What’s the most maintainable way to ensure Claude automatically applies the correct conventions when generating code?</p>
+<p>A) Create rule files in <code>.claude/rules/</code> with YAML frontmatter specifying glob patterns to conditionally apply conventions based on file paths
+B) Consolidate all conventions in the root CLAUDE.md file under headers for each area, relying on Claude to infer which section applies
+C) Create skills in <code>.claude/skills/</code> for each code type that include the relevant conventions in their SKILL.md files
+D) Place a separate CLAUDE.md file in each subdirectory containing that area’s specific conventions</p>
+<p><strong>Correct Answer: A</strong> — Option A is correct because <code>.claude/rules/</code> with glob patterns (e.g., <code>**/*.test.tsx</code>) allows conventions to be automatically applied based on file paths regardless of directory location — essential for test files spread throughout the codebase. Option B relies on inference rather than explicit matching, making it unreliable. Option C requires manual skill invocation or relies on Claude choosing to load them, contradicting the need for deterministic “automatic” application based on file paths. Option D can’t easily handle files spread across many directories since CLAUDE.md files are directory-bound.</p>
+<h3 id="scenario-multi-agent-research-system">Scenario: Multi-Agent Research System</h3>
+<p><strong>Question 7:</strong> After running the system on the topic “impact of AI on creative industries,” you observe that each subagent completes successfully: the web search agent finds relevant articles, the document analysis agent summarizes papers correctly, and the synthesis agent produces coherent output. However, the final reports cover only visual arts, completely missing music, writing, and film production. When you examine the coordinator’s logs, you see it decomposed the topic into three subtasks: “AI in digital art creation,” “AI in graphic design,” and “AI in photography.” What is the most likely root cause?</p>
+<p>A) The synthesis agent lacks instructions for identifying coverage gaps in the findings it receives from other agents.
+B) The coordinator agent’s task decomposition is too narrow, resulting in subagent assignments that don’t cover all relevant domains of the topic.
+C) The web search agent’s queries are not comprehensive enough and need to be expanded to cover more creative industry sectors.
+D) The document analysis agent is filtering out sources related to non-visual creative industries due to overly restrictive relevance criteria.</p>
+<p><strong>Correct Answer: B</strong> — The coordinator’s logs reveal the root cause directly: it decomposed “creative industries” into only visual arts subtasks (digital art, graphic design, photography), completely omitting music, writing, and film. The subagents executed their assigned tasks correctly — the problem is what they were assigned. Options A, C, and D incorrectly blame downstream agents that are working correctly within their assigned scope.</p>
+<p><strong>Question 8:</strong> The web search subagent times out while researching a complex topic. You need to design how this failure information flows back to the coordinator agent. Which error propagation approach best enables intelligent recovery?</p>
+<p>A) Return structured error context to the coordinator including the failure type, the attempted query, any partial results, and potential alternative approaches.
+B) Implement automatic retry logic with exponential backoff within the subagent, returning a generic “search unavailable” status only after all retries are exhausted.
+C) Catch the timeout within the subagent and return an empty result set marked as successful.
+D) Propagate the timeout exception directly to a top-level handler that terminates the entire research workflow.</p>
+<p><strong>Correct Answer: A</strong> — Structured error context gives the coordinator the information it needs to make intelligent recovery decisions — whether to retry with a modified query, try an alternative approach, or proceed with partial results. Option B’s generic status hides valuable context from the coordinator, preventing informed decisions. Option C suppresses the error by marking failure as success, which prevents any recovery and risks incomplete research outputs. Option D terminates the entire workflow unnecessarily when recovery strategies could succeed.</p>
+<p><strong>Question 9:</strong> During testing, you observe that the synthesis agent frequently needs to verify specific claims while combining findings. Currently, when verification is needed, the synthesis agent returns control to the coordinator, which invokes the web search agent, then re-invokes synthesis with results. This adds 2-3 round trips per task and increases latency by 40%. Your evaluation shows that 85% of these verifications are simple fact-checks (dates, names, statistics) while 15% require deeper investigation. What’s the most effective approach to reduce overhead while maintaining system reliability?</p>
+<p>A) Give the synthesis agent a scoped <code>verify_fact</code> tool for simple lookups, while complex verifications continue delegating to the web search agent through the coordinator.
+B) Have the synthesis agent accumulate all verification needs and return them as a batch to the coordinator at the end of its pass, which then sends them all to the web search agent at once.
+C) Give the synthesis agent access to all web search tools so it can handle any verification need directly without round-trips through the coordinator.
+D) Have the web search agent proactively cache extra context around each source during initial research, anticipating what the synthesis agent might need to verify.</p>
+<p><strong>Correct Answer: A</strong> — Option A applies the principle of least privilege by giving the synthesis agent only what it needs for the 85% common case (simple fact verification) while preserving the existing coordination pattern for complex cases. Option B’s batching approach creates blocking dependencies since synthesis steps may depend on earlier verified facts. Option C over-provisions the synthesis agent, violating separation of concerns. Option D relies on speculative caching that cannot reliably predict what the synthesis agent will need to verify.</p>
+<h3 id="scenario-claude-code-for-continuous-integration">Scenario: Claude Code for Continuous Integration</h3>
+<p><strong>Question 10:</strong> Your pipeline script runs <code>claude "Analyze this pull request for security issues"</code> but the job hangs indefinitely. Logs indicate Claude Code is waiting for interactive input. What’s the correct approach to run Claude Code in an automated pipeline?</p>
+<p>A) Add the <code>-p</code> flag: <code>claude -p "Analyze this pull request for security issues"</code>
+B) Set the environment variable <code>CLAUDE_HEADLESS=true</code> before running the command
+C) Redirect stdin from <code>/dev/null</code>: <code>claude "Analyze this pull request for security issues" &#x3C; /dev/null</code>
+D) Add the <code>--batch</code> flag: <code>claude --batch "Analyze this pull request for security issues"</code></p>
+<p><strong>Correct Answer: A</strong> — The <code>-p</code> (or <code>--print</code>) flag is the documented way to run Claude Code in non-interactive mode. It processes the prompt, outputs the result to stdout, and exits without waiting for user input — exactly what CI/CD pipelines require. The other options reference non-existent features (<code>CLAUDE_HEADLESS</code> environment variable, <code>--batch</code> flag) or use Unix workarounds that don’t properly address Claude Code’s command syntax.</p>
+<p><strong>Question 11:</strong> Your team wants to reduce API costs for automated analysis. Currently, real-time Claude calls power two workflows: (1) a blocking pre-merge check that must complete before developers can merge, and (2) a technical debt report generated overnight for review the next morning. Your manager proposes switching both to the Message Batches API for its 50% cost savings. How should you evaluate this proposal?</p>
+<p>A) Use batch processing for the technical debt reports only; keep real-time calls for pre-merge checks.
+B) Switch both workflows to batch processing with status polling to check for completion.
+C) Keep real-time calls for both workflows to avoid batch result ordering issues.
+D) Switch both to batch processing with a timeout fallback to real-time if batches take too long.</p>
+<p><strong>Correct Answer: A</strong> — The Message Batches API offers 50% cost savings but has processing times up to 24 hours with no guaranteed latency SLA. This makes it unsuitable for blocking pre-merge checks where developers wait for results, but ideal for overnight batch jobs like technical debt reports. Option B is wrong because relying on “often faster” completion isn’t acceptable for blocking workflows. Option C reflects a misconception — batch results can be correlated using <code>custom_id</code> fields. Option D adds unnecessary complexity when the simpler solution is matching each API to its appropriate use case.</p>
+<p><strong>Question 12:</strong> A pull request modifies 14 files across the stock tracking module. Your single-pass review analyzing all files together produces inconsistent results: detailed feedback for some files but superficial comments for others, obvious bugs missed, and contradictory feedback — flagging a pattern as problematic in one file while approving identical code elsewhere in the same PR. How should you restructure the review?</p>
+<p>A) Split into focused passes: analyze each file individually for local issues, then run a separate integration-focused pass examining cross-file data flow.
+B) Require developers to split large PRs into smaller submissions of 3-4 files before the automated review runs.
+C) Switch to a higher-tier model with a larger context window to give all 14 files adequate attention in one pass.
+D) Run three independent review passes on the full PR and only flag issues that appear in at least two of the three runs.</p>
+<p><strong>Correct Answer: A</strong> — Splitting reviews into focused passes directly addresses the root cause: attention dilution when processing many files at once. File-by-file analysis ensures consistent depth, while a separate integration pass catches cross-file issues. Option B shifts burden to developers without improving the system. Option C misunderstands that larger context windows don’t solve attention quality issues. Option D would actually suppress detection of real bugs by requiring consensus on issues that may only be caught intermittently.</p>
+<h2 id="preparation-exercises">Preparation Exercises</h2>
+<p>Complete these hands-on exercises to build practical familiarity with the topics covered on the exam. Each exercise is designed to reinforce knowledge across one or more exam domains.</p>
+<h3 id="exercise-1-build-a-multi-tool-agent-with-escalation-logic">Exercise 1: Build a Multi-Tool Agent with Escalation Logic</h3>
+<p><strong>Objective:</strong> Practice designing an agentic loop with tool integration, structured error handling, and escalation patterns.</p>
+<p><strong>Steps:</strong></p>
+<ol>
+<li>Define 3-4 MCP tools with detailed descriptions that clearly differentiate each tool’s purpose, expected inputs, and boundary conditions. Include at least two tools with similar functionality that require careful description to avoid selection confusion.</li>
+<li>Implement an agentic loop that checks <code>stop_reason</code> to determine whether to continue tool execution or present the final response. Handle both “tool_use” and “end_turn” stop reasons correctly.</li>
+<li>Add structured error responses to your tools: include <code>errorCategory</code> (transient/validation/permission), <code>isRetryable</code> boolean, and human-readable descriptions. Test that the agent handles each error type appropriately (retrying transient errors, explaining business errors to the user).</li>
+<li>Implement a programmatic hook that intercepts tool calls to enforce a business rule (e.g., blocking operations above a threshold amount), redirecting to an escalation workflow when triggered.</li>
+<li>Test with multi-concern messages (e.g., requests involving multiple issues) and verify the agent decomposes the request, handles each concern, and synthesizes a unified response.</li>
+</ol>
+<p><strong>Domains reinforced:</strong> Domain 1 (Agentic Architecture &#x26; Orchestration), Domain 2 (Tool Design &#x26; MCP Integration), Domain 5 (Context Management &#x26; Reliability)</p>
+<h3 id="exercise-2-configure-claude-code-for-a-team-development-workflow">Exercise 2: Configure Claude Code for a Team Development Workflow</h3>
+<p><strong>Objective:</strong> Practice configuring CLAUDE.md hierarchies, custom slash commands, path-specific rules, and MCP server integration for a multi-developer project.</p>
+<p><strong>Steps:</strong>
+6. Create a project-level CLAUDE.md with universal coding standards and testing conventions. Verify that instructions placed at the project level are consistently applied across all team members.
+7. Create <code>.claude/rules/</code> files with YAML frontmatter glob patterns for different code areas (e.g., <code>paths: ["src/api/**/*"]</code> for API conventions, <code>paths: ["**/*.test.*"]</code> for testing conventions). Test that rules load only when editing matching files.
+8. Create a project-scoped skill in <code>.claude/skills/</code> with <code>context: fork</code> and <code>allowed-tools</code> restrictions. Verify the skill runs in isolation without polluting the main conversation context.
+9. Configure an MCP server in <code>.mcp.json</code> with environment variable expansion for credentials. Add a personal experimental MCP server in <code>~/.claude.json</code> and verify both are available simultaneously.
+10. Test plan mode versus direct execution on tasks of varying complexity: a single-file bug fix, a multi-file library migration, and a new feature with multiple valid implementation approaches. Observe when plan mode provides value.</p>
+<p><strong>Domains reinforced:</strong> Domain 3 (Claude Code Configuration &#x26; Workflows), Domain 2 (Tool Design &#x26; MCP Integration)</p>
+<h3 id="exercise-3-build-a-structured-data-extraction-pipeline">Exercise 3: Build a Structured Data Extraction Pipeline</h3>
+<p><strong>Objective:</strong> Practice designing JSON schemas, using <code>tool_use</code> for structured output, implementing validation-retry loops, and designing batch processing strategies.</p>
+<p><strong>Steps:</strong>
+11. Define an extraction tool with a JSON schema containing required and optional fields, an enum with an “other” + detail string pattern, and nullable fields for information that may not exist in source documents. Process documents where some fields are absent and verify the model returns null rather than fabricating values.
+12. Implement a validation-retry loop: when Pydantic or JSON schema validation fails, send a follow-up request including the document, the failed extraction, and the specific validation error. Track which errors are resolvable via retry (format mismatches) versus which are not (information absent from source).
+13. Add few-shot examples demonstrating extraction from documents with varied formats (e.g., inline citations vs bibliographies, narrative descriptions vs structured tables) and verify improved handling of structural variety.
+14. Design a batch processing strategy: submit a batch of 100 documents using the Message Batches API, handle failures by <code>custom_id</code>, resubmit failed documents with modifications (e.g., chunking oversized documents), and calculate total processing time relative to SLA constraints.
+15. Implement a human review routing strategy: have the model output field-level confidence scores, route low-confidence extractions to human review, and analyze accuracy by document type and field to verify consistent performance.</p>
+<p><strong>Domains reinforced:</strong> Domain 4 (Prompt Engineering &#x26; Structured Output), Domain 5 (Context Management &#x26; Reliability)</p>
+<h3 id="exercise-4-design-and-debug-a-multi-agent-research-pipeline">Exercise 4: Design and Debug a Multi-Agent Research Pipeline</h3>
+<p><strong>Objective:</strong> Practice orchestrating subagents, managing context passing, implementing error propagation, and handling synthesis with provenance tracking.</p>
+<p><strong>Steps:</strong>
+16. Build a coordinator agent that delegates to at least two subagents (e.g., web search and document analysis). Ensure the coordinator’s <code>allowedTools</code> includes “Task” and that each subagent receives its research findings directly in its prompt rather than relying on automatic context inheritance.
+17. Implement parallel subagent execution by having the coordinator emit multiple Task tool calls in a single response. Measure the latency improvement compared to sequential execution.
+18. Design structured output for subagents that separates content from metadata: each finding should include a claim, evidence excerpt, source URL/document name, and publication date. Verify that the synthesis subagent preserves source attribution when combining findings.
+19. Implement error propagation: simulate a subagent timeout and verify the coordinator receives structured error context (failure type, attempted query, partial results). Test that the coordinator can proceed with partial results and annotate the final output with coverage gaps.
+20. Test with conflicting source data (e.g., two credible sources with different statistics) and verify the synthesis output preserves both values with source attribution rather than arbitrarily selecting one, and structures the report to distinguish well-established from contested findings.</p>
+<p><strong>Domains reinforced:</strong> Domain 1 (Agentic Architecture &#x26; Orchestration), Domain 2 (Tool Design &#x26; MCP Integration), Domain 5 (Context Management &#x26; Reliability)</p>
+<h2 id="appendix">Appendix</h2>
+<h3 id="technologies-and-concepts">Technologies and Concepts</h3>
+<p>The following list contains technologies and concepts that might appear on the exam:</p>
+<ul>
+<li>Claude Agent SDK — Agent definitions, agentic loops, <code>stop_reason</code> handling, hooks (<code>PostToolUse</code>, tool call interception), subagent spawning via Task tool, <code>allowedTools</code> configuration</li>
+<li>Model Context Protocol (MCP) — MCP servers, MCP tools, MCP resources, <code>isError</code> flag, tool descriptions, tool distribution, <code>.mcp.json</code> configuration, environment variable expansion</li>
+<li>Claude Code — CLAUDE.md configuration hierarchy (user/project/directory), <code>.claude/rules/</code> with YAML frontmatter path-scoping, <code>.claude/commands/</code> for slash commands, <code>.claude/skills/</code> with SKILL.md frontmatter (<code>context: fork</code>, <code>allowed-tools</code>, <code>argument-hint</code>), plan mode, direct execution, <code>/memory</code> command, <code>/compact</code>, <code>--resume</code>, <code>fork_session</code>, Explore subagent</li>
+<li>Claude Code CLI — <code>-p</code> / <code>--print</code> flag for non-interactive mode, <code>--output-format json</code>, <code>--json-schema</code> for structured CI output</li>
+<li>Claude API — <code>tool_use</code> with JSON schemas, <code>tool_choice</code> options (“auto”, “any”, forced tool selection), <code>stop_reason</code> values (“tool_use”, “end_turn”), <code>max_tokens</code>, system prompts</li>
+<li>Message Batches API — 50% cost savings, up to 24-hour processing window, <code>custom_id</code> for request/response correlation, polling for completion, no multi-turn tool calling support</li>
+<li>JSON Schema — Required vs optional fields, enum types, nullable fields, “other” + detail string patterns, strict mode for syntax error elimination</li>
+<li>Pydantic — Schema validation, semantic validation errors, validation-retry loops</li>
+<li>Built-in tools — Read, Write, Edit, Bash, Grep, Glob — their purposes and selection criteria</li>
+<li>Few-shot prompting — Targeted examples for ambiguous scenarios, format demonstration, generalization to novel patterns</li>
+<li>Prompt chaining — Sequential task decomposition into focused passes</li>
+<li>Context window management — Token budgets, progressive summarization, lost-in-the-middle effects, context extraction, scratchpad files</li>
+<li>Session management — Session resumption, <code>fork_session</code>, named sessions, session context isolation</li>
+<li>Confidence scoring — Field-level confidence, calibration with labeled validation sets, stratified sampling for error rate measurement</li>
+</ul>
+<h3 id="in-scope-topics">In-Scope Topics</h3>
+<p>The following topics are explicitly tested on the exam:</p>
+<ul>
+<li>Agentic loop implementation: Control flow based on <code>stop_reason</code>, tool result handling, loop termination conditions</li>
+<li>Multi-agent orchestration: Coordinator-subagent patterns, task decomposition, parallel subagent execution, iterative refinement loops</li>
+<li>Subagent context management: Explicit context passing, structured state persistence, crash recovery using manifests</li>
+<li>Tool interface design: Writing effective tool descriptions, splitting vs consolidating tools, tool naming to reduce ambiguity</li>
+<li>MCP tool and resource design: Resources for content catalogs, tools for actions, description quality for adoption</li>
+<li>MCP server configuration: Project vs user scope, environment variable expansion, multi-server simultaneous access</li>
+<li>Error handling and propagation: Structured error responses, transient vs business vs permission errors, local recovery before escalation</li>
+<li>Escalation decision-making: Explicit criteria, honoring customer preferences, policy gap identification</li>
+<li>CLAUDE.md configuration: Hierarchy (user/project/directory), <code>@import</code> patterns, <code>.claude/rules/</code> with glob patterns</li>
+<li>Custom commands and skills: Project vs user scope, <code>context: fork</code>, <code>allowed-tools</code>, <code>argument-hint</code> frontmatter</li>
+<li>Plan mode vs direct execution: Complexity assessment, architectural decisions, single-file changes</li>
+<li>Iterative refinement: Input/output examples, test-driven iteration, interview pattern, sequential vs parallel issue resolution</li>
+<li>Structured output via <code>tool_use</code>: Schema design, <code>tool_choice</code> configuration, nullable fields to prevent hallucination</li>
+<li>Few-shot prompting: Ambiguous scenario targeting, format consistency, false positive reduction</li>
+<li>Batch processing: Message Batches API appropriateness, latency tolerance assessment, failure handling by <code>custom_id</code></li>
+<li>Context window optimization: Trimming verbose tool outputs, structured fact extraction, position-aware input ordering</li>
+<li>Human review workflows: Confidence calibration, stratified sampling, accuracy segmentation by document type and field</li>
+<li>Information provenance: Claim-source mappings, temporal data handling, conflict annotation, coverage gap reporting</li>
+</ul>
+<h3 id="out-of-scope-topics">Out-of-Scope Topics</h3>
+<p>The following related topics will <strong>not</strong> appear on the exam:</p>
+<ul>
+<li>Fine-tuning Claude models or training custom models</li>
+<li>Claude API authentication, billing, or account management</li>
+<li>Detailed implementation of specific programming languages or frameworks (beyond what’s needed for tool and schema configuration)</li>
+<li>Deploying or hosting MCP servers (infrastructure, networking, container orchestration)</li>
+<li>Claude’s internal architecture, training process, or model weights</li>
+<li>Constitutional AI, RLHF, or safety training methodologies</li>
+<li>Embedding models or vector database implementation details</li>
+<li>Computer use (browser automation, desktop interaction)</li>
+<li>Vision/image analysis capabilities</li>
+<li>Streaming API implementation or server-sent events</li>
+<li>Rate limiting, quotas, or API pricing calculations</li>
+<li>OAuth, API key rotation, or authentication protocol details</li>
+<li>Specific cloud provider configurations (AWS, GCP, Azure)</li>
+<li>Performance benchmarking or model comparison metrics</li>
+<li>Prompt caching implementation details (beyond knowing it exists)</li>
+<li>Token counting algorithms or tokenization specifics</li>
+</ul>
+<h2 id="exam-preparation-recommendations">Exam Preparation Recommendations</h2>
+<p>To prepare for this certification exam:</p>
+<ol start="21">
+<li>Build an agent with the Claude Agent SDK: Implement a complete agentic loop with tool calling, error handling, and session management. Practice spawning subagents and passing context between them.</li>
+<li>Configure Claude Code for a real project: Set up CLAUDE.md with a configuration hierarchy, create path-specific rules in <code>.claude/rules/</code>, build custom skills with frontmatter options (<code>context: fork</code>, <code>allowed-tools</code>), and integrate at least one MCP server.</li>
+<li>Design and test MCP tools: Write tool descriptions that clearly differentiate similar tools. Implement structured error responses with error categories and retryable flags. Test tool selection reliability with ambiguous requests.</li>
+<li>Build a structured data extraction pipeline: Use <code>tool_use</code> with JSON schemas, implement validation-retry loops, design schemas with optional/nullable fields, and practice batch processing with the Message Batches API.</li>
+<li>Practice prompt engineering techniques: Write few-shot examples for ambiguous scenarios. Define explicit review criteria to reduce false positives. Design multi-pass review architectures for large code reviews.</li>
+<li>Study context management patterns: Practice extracting structured facts from verbose tool outputs, implementing scratchpad files for long sessions, and designing subagent delegation to manage context limits.</li>
+<li>Review escalation and human-in-the-loop patterns: Understand when to escalate (policy gaps, customer requests, inability to progress) versus resolve autonomously. Practice designing human review workflows with confidence-based routing.</li>
+</ol> </article> </div> </div> </div>  </main> <footer class="bg-propel-navy text-white py-8 mt-auto"> <div class="max-w-6xl mx-auto px-4 md:px-8"> <div class="flex flex-col md:flex-row items-center justify-between gap-4"> <div class="flex items-center gap-3"> <img src="propel-logo.svg" alt="Propel" class="h-6"> <span class="text-white/60 text-sm">Claude Certified Architect — Study Guide</span> </div> </div> <div class="mt-6 pt-6 border-t border-white/10 text-center text-white/40 text-xs"> <p>&copy; 2026 Propel Ventures. Internal use only.</p> </div> </div> </footer> </body></html> <script type="module">function n(){document.querySelectorAll("article :is(h2, h3, h4)[id]").forEach(t=>{if(t.querySelector(".heading-anchor"))return;const e=document.createElement("a");e.href=`#${t.id}`,e.className="heading-anchor",e.textContent="#",e.setAttribute("aria-label","Link to this section"),t.appendChild(e)})}n();document.addEventListener("astro:page-load",n);</script>
